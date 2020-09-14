@@ -58,4 +58,4 @@ As previously mentioned the push button labeled SW0 can be used in this demonstr
 
 <img src="images/tmr2.PNG" alt="MCHP" width="500ms"/></a>
 
-<img src="images/clc1.png" alt="MCHP" width="750"/></a>
+<img src="images/clc1.png" alt="MCHP" width="800"/></a>
