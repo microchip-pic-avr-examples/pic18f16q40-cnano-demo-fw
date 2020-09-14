@@ -4,7 +4,7 @@
 # PIC18F16Q40 Curiosity Nano Demonstration Firmware
 The PIC18F16Q40 Curiosity Nano Evaluation Kit is preprogrammed with this project in order to demonstrate some of the key features of the device family. This project highlights several of the main peripherals found on the PIC18F16Q40 such as the ADC with Computation (ADCC), the Temperature Indicator Module, Configurable Logic Cell (CLC), Non-Volatile Memory (NVM) Module, 16-bit PWM, UART, and Timer 1/2 modules.
 
-<img src="images/q40-nano.PNG" alt="MCHP" width="500"/></a>
+<img src="images/q40-nano.png" alt="MCHP" width="500"/></a>
 
 ## Related Documentation
 * [PIC18F16Q40 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
@@ -50,26 +50,7 @@ The 16-bit PWM was configured in this code example to generate an output frequen
 
 <img src="images/pwm.PNG" alt="MCHP" width="750"/></a>
 
-<img src="images/pwm-out.PNG" alt="MCHP" width="750"/></a>
+<img src="images/pwm-out.png" alt="MCHP" width="750"/></a>
 
 
 ### Core Independent Hardware Debouncer
-
-In this configuration, the OPA is configured as a unity gain buffer (voltage follower). When configured in this mode, only positive input of the OPA (OPA1IN+) and the output (OPA1OUT) are connected to the external I/O pins, while the negative input of the OPA (OPA1IN-) is internally connected to the output of the OPA as shown in the figure below to form a unity gain buffer.
-
-| OPA   | Positive Input  | Output (OUT)  |
-| :----:|:--------------: | :-----------: |
-| OPA1  |  RC3 (OPA1IN1+) | RC2 (OPA1OUT) |
-
-<img src="images/OPA_UnityGainBuffer.png" alt="MCHP" width="500"/></a>
-
-
-In this configuration, the OPA is configured as a non-inverting programmable gain amplifier (PGA) and uses the internal resistor ladder built into the OPA module. The positive input (OPA1IN+) and the output (OPA1OUT) of the OPA are connected to the corresponding I/O pins. The OPA is preconfigured with a gain of '4' using the internal resistor ladder. This gain can be changed by writing a different value to the GSEL bits of OPA1CON1 in the function named "void OPA_NonInverting(void)" located in "application.c".
-
-| OPA    | Gain | Positive Input   | Output (OUT)  |
-| :----: | :--: | :--------------: | :-----------: |
-| OPA1   |  4   | RC3 (OPA1IN1+)   | RC2 (OPA1OUT) |
-
-<img src="images/OPA_NonInvertingPGA.png" alt="MCHP" width="500"/></a>
-
-<img src="images/OPA_NonInverting_Gain.PNG" alt="MCHP" width="250"/></a>
