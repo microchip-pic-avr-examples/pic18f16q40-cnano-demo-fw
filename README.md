@@ -45,12 +45,17 @@ void TempIndicator_Calc(void) {
     printf("Temp Sensor Result %d \r\n", tempC);
 }
 ```
+
 ### 16-bit PWM Demonstration
 The 16-bit PWM was configured in this code example to generate an output frequency of 100 kHz with a Duty Cycle of 25% using MCC. The 16-bit PWM allows for dual outputs, and the polarity of each output can be controlled as well. The PWM1 Output 1 was programmed to be on pin RA4 and PWM Output 2 is located on pin RA5. The PWM outputs on both of these pins are identical, with the exception that output 2 on RA5 is inverted. The 16-bit PWM module is a core independent peripheral, and pins RA4 and RA5 are continually driven in this code example without any CPU utilization. The following figures show the PWM configuration in this code example using MCC, and the resulting output waveforms on pins RA4 and RA5.
 
-<img src="images/pwm.PNG" alt="MCHP" width="750"/></a>
+<img src="images/pwm.PNG" alt="MCHP" width="600"/></a>
 
 <img src="images/pwm-out.png" alt="MCHP" width="750"/></a>
 
+### Core Independent Hardware Debouncing
+As previously mentioned the push button labeled SW0 can be used in this demonstration to toggle the state of LED0. A core independent hardware debouncer was implemented in this project using the CLC and Timer2 peripherals. Timer2 was configured in monostable mode with a period of around 100ms and an external reset source on the T2INPPS pin, which was tied to pin RC0 where SW0 is located. Configuring Timer1 this way means that any time SW0 is pressed and a falling edge is detected on the T2INPPS pin, the timer will reset and count to 100ms before stopping again. CLC1 was configured as a JK flip-flop where the J and K inputs are always tied high and the clock is tied to TMR2. Whenever SW0 is pressed and Timer1 is restarted, once the 100ms are complete the JK Flip-Flop output will change which will result in an interrupt that can be used to accurately detect a button-press in software. The figures below show the MCC setup and configuration of both Timer2 and CLC1 as used in this hardware debouncer system.
 
-### Core Independent Hardware Debouncer
+<img src="images/tmr2.PNG" alt="MCHP" width="500ms"/></a>
+
+<img src="images/clc1.PNG" alt="MCHP" width="750"/></a>
