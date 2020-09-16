@@ -15,9 +15,12 @@ void IntroSplashMessage(void) {
     printf("-------------------------------------------------------- \r\n");
 }
 
-void TempIndicator_Calc(void) {
+void TempIndicator_Init(void) {
     gain = FLASH_ReadWord(DIA_TSHR1);
     offset = FLASH_ReadWord(DIA_TSHR3);
+}
+
+void TempIndicator_Calc(void) {
     adcc_meas = ADCC_GetConversionResult();
     tempC = (int24_t) adcc_meas * gain;
     tempC = tempC / 256;

@@ -17,6 +17,7 @@ extern "C" {
     int24_t tempC = 0;
 
     void IntroSplashMessage(void);
+    void TempIndicator_Init(void);
     void TempIndicator_Calc(void);
 
 #ifdef	__cplusplus

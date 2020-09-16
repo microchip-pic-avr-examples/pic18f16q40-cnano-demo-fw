@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 18F16Q40 ]
 [d frameptr 1249 ]
-"64 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
+"64 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
 [e E12993 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -12,7 +12,7 @@ channel_DAC1 61
 channel_FVR_Buffer1 62
 channel_FVR_Buffer2 63
 ]
-"88 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+"88 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
 [e E12894 . `uc
 TMR2_ROP_STARTS_TMRON 0
 TMR2_ROP_STARTS_TMRON_ERSHIGH 1
@@ -64,7 +64,7 @@ TMR2_UART3_RX_EDGE 22
 TMR2_UART3_TX_EDGE 23
 TMR2_RESERVED_3 24
 ]
-"120 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"120 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [e E12897 . `uc
 channel_DAC2 58
 channel_VSS 59
@@ -73,9 +73,11 @@ channel_DAC1 61
 channel_FVR_Buffer1 62
 channel_FVR_Buffer2 63
 ]
-"12 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
+"12 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
 [v _IntroSplashMessage IntroSplashMessage `(v  1 e 1 0 ]
 "18
+[v _TempIndicator_Init TempIndicator_Init `(v  1 e 1 0 ]
+"23
 [v _TempIndicator_Calc TempIndicator_Calc `(v  1 e 1 0 ]
 "1 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
 [v _abs abs `(i  1 e 2 0 ]
@@ -127,9 +129,9 @@ channel_FVR_Buffer2 63
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
+"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 "138
 [v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
@@ -139,23 +141,23 @@ channel_FVR_Buffer2 63
 [v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
 "319
 [v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
 [v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
 "93
 [v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
 [v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
-"52 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+"52 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "58
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "65
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "81
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"73 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+"73 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
 [v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
 "93
 [v _FLASH_ReadPage FLASH_ReadPage `(v  1 e 1 0 ]
@@ -163,9 +165,9 @@ channel_FVR_Buffer2 63
 [v _FLASH_WritePage FLASH_WritePage `(v  1 e 1 0 ]
 "200
 [v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
-"55 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
 [v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
 "192
 [v _PWM1_16BIT_Slice1Output1_SetInterruptHandler PWM1_16BIT_Slice1Output1_SetInterruptHandler `(v  1 e 1 0 ]
@@ -179,11 +181,11 @@ channel_FVR_Buffer2 63
 [v _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler PWM1_16BIT_Slice1Output2_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Slice1Output2_DefaultInterruptHandler ]
 "219
 [v _PWM1_16BIT_Period_DefaultInterruptHandler PWM1_16BIT_Period_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Period_DefaultInterruptHandler ]
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 "120
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
-"62 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+"62 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "100
 [v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
@@ -195,7 +197,7 @@ channel_FVR_Buffer2 63
 [v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
 "147
 [v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
-"66 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+"66 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
 "145
 [v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
@@ -215,37 +217,37 @@ channel_FVR_Buffer2 63
 [v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
 "208
 [v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
-"15 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X/application.h
+"15 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X/application.h
 [v _gain gain `s  1 e 2 0 ]
 [v _offset offset `s  1 e 2 0 ]
 "16
 [v _adcc_meas adcc_meas `us  1 e 2 0 ]
 "17
 [v _tempC tempC `m  1 e 3 0 ]
-"72 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/adcc.h
+"72 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/adcc.h
 [v _adcc_flag adcc_flag `uc  1 e 1 0 ]
-"64 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/clc1.h
+"64 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/clc1.h
 [v _SW0_flag SW0_flag `uc  1 e 1 0 ]
-[s S1779 . 1 `uc 1 GO 1 0 :1:0 
+[s S1784 . 1 `uc 1 GO 1 0 :1:0 
 ]
 "463 C:/Users/C16783/.mchp_packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f16q40.h
-[s S1781 . 1 `uc 1 NOT_DONE 1 0 :1:0 
+[s S1786 . 1 `uc 1 NOT_DONE 1 0 :1:0 
 ]
-[s S1783 . 1 `uc 1 nDONE 1 0 :1:0 
+[s S1788 . 1 `uc 1 nDONE 1 0 :1:0 
 ]
-[s S1785 . 1 `uc 1 NVMGO 1 0 :1:0 
+[s S1790 . 1 `uc 1 NVMGO 1 0 :1:0 
 ]
-[u S1787 . 1 `S1779 1 . 1 0 `S1781 1 . 1 0 `S1783 1 . 1 0 `S1785 1 . 1 0 ]
-[v _NVMCON0bits NVMCON0bits `VES1787  1 e 1 @64 ]
-[s S1762 . 1 `uc 1 CMD 1 0 :3:0 
+[u S1792 . 1 `S1784 1 . 1 0 `S1786 1 . 1 0 `S1788 1 . 1 0 `S1790 1 . 1 0 ]
+[v _NVMCON0bits NVMCON0bits `VES1792  1 e 1 @64 ]
+[s S1767 . 1 `uc 1 CMD 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 WRERR 1 0 :1:7 
 ]
 "503
-[s S1766 . 1 `uc 1 NVMCMD 1 0 :3:0 
+[s S1771 . 1 `uc 1 NVMCMD 1 0 :3:0 
 ]
-[u S1768 . 1 `S1762 1 . 1 0 `S1766 1 . 1 0 ]
-[v _NVMCON1bits NVMCON1bits `VES1768  1 e 1 @65 ]
+[u S1773 . 1 `S1767 1 . 1 0 `S1771 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1773  1 e 1 @65 ]
 "523
 [v _NVMLOCK NVMLOCK `VEuc  1 e 1 @66 ]
 "552
@@ -282,14 +284,14 @@ channel_FVR_Buffer2 63
 [v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
 "6119
 [v _CLCDATA CLCDATA `VEuc  1 e 1 @212 ]
-[s S667 . 1 `uc 1 CLC1OUT 1 0 :1:0 
+[s S671 . 1 `uc 1 CLC1OUT 1 0 :1:0 
 `uc 1 CLC2OUT 1 0 :1:1 
 `uc 1 CLC3OUT 1 0 :1:2 
 `uc 1 CLC4OUT 1 0 :1:3 
 ]
 "6132
-[u S672 . 1 `S667 1 . 1 0 ]
-[v _CLCDATAbits CLCDATAbits `VES672  1 e 1 @212 ]
+[u S676 . 1 `S671 1 . 1 0 ]
+[v _CLCDATAbits CLCDATAbits `VES676  1 e 1 @212 ]
 "6157
 [v _CLCSELECT CLCSELECT `VEuc  1 e 1 @213 ]
 "6191
@@ -414,32 +416,32 @@ channel_FVR_Buffer2 63
 [v _TMR1H TMR1H `VEuc  1 e 1 @787 ]
 "18478
 [v _T1CON T1CON `VEuc  1 e 1 @788 ]
-[s S1547 . 1 `uc 1 ON 1 0 :1:0 
+[s S1551 . 1 `uc 1 ON 1 0 :1:0 
 `uc 1 RD16 1 0 :1:1 
 `uc 1 NOT_SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 CKPS 1 0 :2:4 
 ]
 "18514
-[s S1553 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S1557 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 T1RD16 1 0 :1:1 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T1CKPS0 1 0 :1:4 
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
-[s S1560 . 1 `uc 1 . 1 0 :4:0 
+[s S1564 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CKPS0 1 0 :1:4 
 `uc 1 CKPS1 1 0 :1:5 
 ]
-[s S1564 . 1 `uc 1 . 1 0 :1:0 
+[s S1568 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 RD161 1 0 :1:1 
 ]
-[u S1567 . 1 `S1547 1 . 1 0 `S1553 1 . 1 0 `S1560 1 . 1 0 `S1564 1 . 1 0 ]
-[v _T1CONbits T1CONbits `VES1567  1 e 1 @788 ]
+[u S1571 . 1 `S1551 1 . 1 0 `S1557 1 . 1 0 `S1564 1 . 1 0 `S1568 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1571  1 e 1 @788 ]
 "18668
 [v _T1GCON T1GCON `VEuc  1 e 1 @789 ]
-[s S1593 . 1 `uc 1 . 1 0 :2:0 
+[s S1597 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 GVAL 1 0 :1:2 
 `uc 1 GGO 1 0 :1:3 
 `uc 1 GSPM 1 0 :1:4 
@@ -448,7 +450,7 @@ channel_FVR_Buffer2 63
 `uc 1 GE 1 0 :1:7 
 ]
 "18706
-[s S1601 . 1 `uc 1 . 1 0 :2:0 
+[s S1605 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1GVAL 1 0 :1:2 
 `uc 1 T1GGO 1 0 :1:3 
 `uc 1 T1GSPM 1 0 :1:4 
@@ -456,14 +458,14 @@ channel_FVR_Buffer2 63
 `uc 1 T1GPOL 1 0 :1:6 
 `uc 1 T1GE 1 0 :1:7 
 ]
-[s S1609 . 1 `uc 1 . 1 0 :3:0 
+[s S1613 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_DONE 1 0 :1:3 
 ]
-[s S1612 . 1 `uc 1 . 1 0 :3:0 
+[s S1616 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_T1DONE 1 0 :1:3 
 ]
-[u S1615 . 1 `S1593 1 . 1 0 `S1601 1 . 1 0 `S1609 1 . 1 0 `S1612 1 . 1 0 ]
-[v _T1GCONbits T1GCONbits `VES1615  1 e 1 @789 ]
+[u S1619 . 1 `S1597 1 . 1 0 `S1605 1 . 1 0 `S1613 1 . 1 0 `S1616 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1619  1 e 1 @789 ]
 "18882
 [v _T1GATE T1GATE `VEuc  1 e 1 @790 ]
 "19048
@@ -478,16 +480,16 @@ channel_FVR_Buffer2 63
 [v _PR2 PR2 `VEuc  1 e 1 @797 ]
 "19922
 [v _T2CON T2CON `VEuc  1 e 1 @798 ]
-[s S867 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S871 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 CKPS 1 0 :3:4 
 `uc 1 ON 1 0 :1:7 
 ]
 "19958
-[s S871 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+[s S875 . 1 `uc 1 T2OUTPS 1 0 :4:0 
 `uc 1 T2CKPS 1 0 :3:4 
 `uc 1 T2ON 1 0 :1:7 
 ]
-[s S875 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+[s S879 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
 `uc 1 T2OUTPS1 1 0 :1:1 
 `uc 1 T2OUTPS2 1 0 :1:2 
 `uc 1 T2OUTPS3 1 0 :1:3 
@@ -495,7 +497,7 @@ channel_FVR_Buffer2 63
 `uc 1 T2CKPS1 1 0 :1:5 
 `uc 1 T2CKPS2 1 0 :1:6 
 ]
-[s S883 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S887 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
@@ -504,61 +506,61 @@ channel_FVR_Buffer2 63
 `uc 1 CKPS2 1 0 :1:6 
 `uc 1 TMR2ON 1 0 :1:7 
 ]
-[u S892 . 1 `S867 1 . 1 0 `S871 1 . 1 0 `S875 1 . 1 0 `S883 1 . 1 0 ]
-[v _T2CONbits T2CONbits `VES892  1 e 1 @798 ]
+[u S896 . 1 `S871 1 . 1 0 `S875 1 . 1 0 `S879 1 . 1 0 `S887 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES896  1 e 1 @798 ]
 "20068
 [v _T2HLT T2HLT `VEuc  1 e 1 @799 ]
-[s S753 . 1 `uc 1 MODE 1 0 :5:0 
+[s S757 . 1 `uc 1 MODE 1 0 :5:0 
 `uc 1 CKSYNC 1 0 :1:5 
 `uc 1 CKPOL 1 0 :1:6 
 `uc 1 PSYNC 1 0 :1:7 
 ]
 "20101
-[s S758 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S762 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 `uc 1 MODE4 1 0 :1:4 
 ]
-[s S764 . 1 `uc 1 T2MODE 1 0 :5:0 
+[s S768 . 1 `uc 1 T2MODE 1 0 :5:0 
 `uc 1 T2CKSYNC 1 0 :1:5 
 `uc 1 T2CKPOL 1 0 :1:6 
 `uc 1 T2PSYNC 1 0 :1:7 
 ]
-[s S769 . 1 `uc 1 T2MODE0 1 0 :1:0 
+[s S773 . 1 `uc 1 T2MODE0 1 0 :1:0 
 `uc 1 T2MODE1 1 0 :1:1 
 `uc 1 T2MODE2 1 0 :1:2 
 `uc 1 T2MODE3 1 0 :1:3 
 `uc 1 T2MODE4 1 0 :1:4 
 ]
-[u S775 . 1 `S753 1 . 1 0 `S758 1 . 1 0 `S764 1 . 1 0 `S769 1 . 1 0 ]
-[v _T2HLTbits T2HLTbits `VES775  1 e 1 @799 ]
+[u S779 . 1 `S757 1 . 1 0 `S762 1 . 1 0 `S768 1 . 1 0 `S773 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES779  1 e 1 @799 ]
 "20196
 [v _T2CLKCON T2CLKCON `VEuc  1 e 1 @800 ]
 "20354
 [v _T2RST T2RST `VEuc  1 e 1 @801 ]
-[s S829 . 1 `uc 1 RSEL 1 0 :8:0 
+[s S833 . 1 `uc 1 RSEL 1 0 :8:0 
 ]
 "20381
-[s S831 . 1 `uc 1 RSEL0 1 0 :1:0 
+[s S835 . 1 `uc 1 RSEL0 1 0 :1:0 
 `uc 1 RSEL1 1 0 :1:1 
 `uc 1 RSEL2 1 0 :1:2 
 `uc 1 RSEL3 1 0 :1:3 
 `uc 1 RSEL4 1 0 :1:4 
 ]
-[s S837 . 1 `uc 1 T2RSEL 1 0 :8:0 
+[s S841 . 1 `uc 1 T2RSEL 1 0 :8:0 
 ]
-[s S839 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+[s S843 . 1 `uc 1 T2RSEL0 1 0 :1:0 
 `uc 1 T2RSEL1 1 0 :1:1 
 `uc 1 T2RSEL2 1 0 :1:2 
 `uc 1 T2RSEL3 1 0 :1:3 
 `uc 1 T2RSEL4 1 0 :1:4 
 ]
-[u S845 . 1 `S829 1 . 1 0 `S831 1 . 1 0 `S837 1 . 1 0 `S839 1 . 1 0 ]
-[v _T2RSTbits T2RSTbits `VES845  1 e 1 @801 ]
+[u S849 . 1 `S833 1 . 1 0 `S835 1 . 1 0 `S841 1 . 1 0 `S843 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES849  1 e 1 @801 ]
 "26626
 [v _FVRCON FVRCON `VEuc  1 e 1 @983 ]
-[s S1697 . 1 `uc 1 ADFVR 1 0 :2:0 
+[s S1702 . 1 `uc 1 ADFVR 1 0 :2:0 
 `uc 1 CDAFVR 1 0 :2:2 
 `uc 1 TSRNG 1 0 :1:4 
 `uc 1 TSEN 1 0 :1:5 
@@ -566,7 +568,7 @@ channel_FVR_Buffer2 63
 `uc 1 EN 1 0 :1:7 
 ]
 "26650
-[s S1704 . 1 `uc 1 ADFVR0 1 0 :1:0 
+[s S1709 . 1 `uc 1 ADFVR0 1 0 :1:0 
 `uc 1 ADFVR1 1 0 :1:1 
 `uc 1 CDAFVR0 1 0 :1:2 
 `uc 1 CDAFVR1 1 0 :1:3 
@@ -574,8 +576,8 @@ channel_FVR_Buffer2 63
 `uc 1 FVRRDY 1 0 :1:6 
 `uc 1 FVREN 1 0 :1:7 
 ]
-[u S1712 . 1 `S1697 1 . 1 0 `S1704 1 . 1 0 ]
-[v _FVRCONbits FVRCONbits `VES1712  1 e 1 @983 ]
+[u S1717 . 1 `S1702 1 . 1 0 `S1709 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES1717  1 e 1 @983 ]
 "26822
 [v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
 "26950
@@ -628,7 +630,7 @@ channel_FVR_Buffer2 63
 [v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
 "29861
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
-[s S1170 . 1 `uc 1 GO 1 0 :1:0 
+[s S1174 . 1 `uc 1 GO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM 1 0 :2:2 
 `uc 1 CS 1 0 :1:4 
@@ -637,7 +639,7 @@ channel_FVR_Buffer2 63
 `uc 1 ON 1 0 :1:7 
 ]
 "29901
-[s S1178 . 1 `uc 1 ADGO 1 0 :1:0 
+[s S1182 . 1 `uc 1 ADGO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM 1 0 :2:2 
 `uc 1 ADCS 1 0 :1:4 
@@ -645,46 +647,46 @@ channel_FVR_Buffer2 63
 `uc 1 ADCONT 1 0 :1:6 
 `uc 1 ADON 1 0 :1:7 
 ]
-[s S1186 . 1 `uc 1 DONE 1 0 :1:0 
+[s S1190 . 1 `uc 1 DONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM0 1 0 :1:2 
 `uc 1 FM1 1 0 :1:3 
 ]
-[s S1191 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+[s S1195 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
 ]
-[s S1193 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+[s S1197 . 1 `uc 1 GO_nDONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM0 1 0 :1:2 
 `uc 1 ADFM1 1 0 :1:3 
 ]
-[u S1198 . 1 `S1170 1 . 1 0 `S1178 1 . 1 0 `S1186 1 . 1 0 `S1191 1 . 1 0 `S1193 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES1198  1 e 1 @1011 ]
+[u S1202 . 1 `S1174 1 . 1 0 `S1182 1 . 1 0 `S1190 1 . 1 0 `S1195 1 . 1 0 `S1197 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1202  1 e 1 @1011 ]
 "29991
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
-[s S1414 . 1 `uc 1 DSEN 1 0 :1:0 
+[s S1418 . 1 `uc 1 DSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 GPOL 1 0 :1:5 
 `uc 1 IPEN 1 0 :1:6 
 `uc 1 PPOL 1 0 :1:7 
 ]
 "30012
-[s S1420 . 1 `uc 1 ADDSEN 1 0 :1:0 
+[s S1424 . 1 `uc 1 ADDSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 ADGPOL 1 0 :1:5 
 `uc 1 ADIPEN 1 0 :1:6 
 `uc 1 ADPPOL 1 0 :1:7 
 ]
-[u S1426 . 1 `S1414 1 . 1 0 `S1420 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES1426  1 e 1 @1012 ]
+[u S1430 . 1 `S1418 1 . 1 0 `S1424 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1430  1 e 1 @1012 ]
 "30057
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
-[s S1290 . 1 `uc 1 MD 1 0 :3:0 
+[s S1294 . 1 `uc 1 MD 1 0 :3:0 
 `uc 1 ACLR 1 0 :1:3 
 `uc 1 CRS 1 0 :3:4 
 `uc 1 PSIS 1 0 :1:7 
 ]
 "30094
-[s S1295 . 1 `uc 1 ADMD0 1 0 :1:0 
+[s S1299 . 1 `uc 1 ADMD0 1 0 :1:0 
 `uc 1 ADMD1 1 0 :1:1 
 `uc 1 ADMD2 1 0 :1:2 
 `uc 1 ADACLR 1 0 :1:3 
@@ -693,11 +695,11 @@ channel_FVR_Buffer2 63
 `uc 1 ADCRS2 1 0 :1:6 
 `uc 1 ADPSIS 1 0 :1:7 
 ]
-[s S1304 . 1 `uc 1 ADMD 1 0 :3:0 
+[s S1308 . 1 `uc 1 ADMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCRS 1 0 :3:4 
 ]
-[s S1308 . 1 `uc 1 MD0 1 0 :1:0 
+[s S1312 . 1 `uc 1 MD0 1 0 :1:0 
 `uc 1 MD1 1 0 :1:1 
 `uc 1 MD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -705,16 +707,16 @@ channel_FVR_Buffer2 63
 `uc 1 CRS1 1 0 :1:5 
 `uc 1 CRS2 1 0 :1:6 
 ]
-[u S1316 . 1 `S1290 1 . 1 0 `S1295 1 . 1 0 `S1304 1 . 1 0 `S1308 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES1316  1 e 1 @1013 ]
+[u S1320 . 1 `S1294 1 . 1 0 `S1299 1 . 1 0 `S1308 1 . 1 0 `S1312 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1320  1 e 1 @1013 ]
 "30199
 [v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
-[s S1235 . 1 `uc 1 TMD 1 0 :3:0 
+[s S1239 . 1 `uc 1 TMD 1 0 :3:0 
 `uc 1 SOI 1 0 :1:3 
 `uc 1 CALC 1 0 :3:4 
 ]
 "30234
-[s S1239 . 1 `uc 1 ADTMD0 1 0 :1:0 
+[s S1243 . 1 `uc 1 ADTMD0 1 0 :1:0 
 `uc 1 ADTMD1 1 0 :1:1 
 `uc 1 ADTMD2 1 0 :1:2 
 `uc 1 ADSOI 1 0 :1:3 
@@ -722,11 +724,11 @@ channel_FVR_Buffer2 63
 `uc 1 ADCALC1 1 0 :1:5 
 `uc 1 ADCALC2 1 0 :1:6 
 ]
-[s S1247 . 1 `uc 1 ADTMD 1 0 :3:0 
+[s S1251 . 1 `uc 1 ADTMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCALC 1 0 :3:4 
 ]
-[s S1251 . 1 `uc 1 TMD0 1 0 :1:0 
+[s S1255 . 1 `uc 1 TMD0 1 0 :1:0 
 `uc 1 TMD1 1 0 :1:1 
 `uc 1 TMD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -734,11 +736,11 @@ channel_FVR_Buffer2 63
 `uc 1 CALC1 1 0 :1:5 
 `uc 1 CALC2 1 0 :1:6 
 ]
-[u S1259 . 1 `S1235 1 . 1 0 `S1239 1 . 1 0 `S1247 1 . 1 0 `S1251 1 . 1 0 ]
-[v _ADCON3bits ADCON3bits `VES1259  1 e 1 @1014 ]
+[u S1263 . 1 `S1239 1 . 1 0 `S1243 1 . 1 0 `S1251 1 . 1 0 `S1255 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES1263  1 e 1 @1014 ]
 "30329
 [v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
-[s S1350 . 1 `uc 1 STAT 1 0 :3:0 
+[s S1354 . 1 `uc 1 STAT 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 MATH 1 0 :1:4 
 `uc 1 LTHR 1 0 :1:5 
@@ -746,7 +748,7 @@ channel_FVR_Buffer2 63
 `uc 1 AOV 1 0 :1:7 
 ]
 "30366
-[s S1357 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+[s S1361 . 1 `uc 1 ADSTAT0 1 0 :1:0 
 `uc 1 ADSTAT1 1 0 :1:1 
 `uc 1 ADSTAT2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -755,18 +757,18 @@ channel_FVR_Buffer2 63
 `uc 1 ADUTHR 1 0 :1:6 
 `uc 1 ADAOV 1 0 :1:7 
 ]
-[s S1366 . 1 `uc 1 ADSTAT 1 0 :3:0 
+[s S1370 . 1 `uc 1 ADSTAT 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 ADOV 1 0 :1:7 
 ]
-[s S1370 . 1 `uc 1 STAT0 1 0 :1:0 
+[s S1374 . 1 `uc 1 STAT0 1 0 :1:0 
 `uc 1 STAT1 1 0 :1:1 
 `uc 1 STAT2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 OV 1 0 :1:7 
 ]
-[u S1376 . 1 `S1350 1 . 1 0 `S1357 1 . 1 0 `S1366 1 . 1 0 `S1370 1 . 1 0 ]
-[v _ADSTATbits ADSTATbits `VES1376  1 e 1 @1015 ]
+[u S1380 . 1 `S1354 1 . 1 0 `S1361 1 . 1 0 `S1370 1 . 1 0 `S1374 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1380  1 e 1 @1015 ]
 "30461
 [v _ADREF ADREF `VEuc  1 e 1 @1016 ]
 "30601
@@ -819,37 +821,37 @@ channel_FVR_Buffer2 63
 [v _PWM1PIPOS PWM1PIPOS `VEuc  1 e 1 @1126 ]
 "33555
 [v _PWM1GIR PWM1GIR `VEuc  1 e 1 @1127 ]
-[s S474 . 1 `uc 1 S1P1IF 1 0 :1:0 
+[s S478 . 1 `uc 1 S1P1IF 1 0 :1:0 
 `uc 1 S1P2IF 1 0 :1:1 
 ]
 "33566
-[u S477 . 1 `S474 1 . 1 0 ]
+[u S481 . 1 `S478 1 . 1 0 ]
 "33566
 "33566
-[v _PWM1GIRbits PWM1GIRbits `VES477  1 e 1 @1127 ]
+[v _PWM1GIRbits PWM1GIRbits `VES481  1 e 1 @1127 ]
 "33581
 [v _PWM1GIE PWM1GIE `VEuc  1 e 1 @1128 ]
-[s S550 . 1 `uc 1 S1P1IE 1 0 :1:0 
+[s S554 . 1 `uc 1 S1P1IE 1 0 :1:0 
 `uc 1 S1P2IE 1 0 :1:1 
 ]
 "33592
-[u S553 . 1 `S550 1 . 1 0 ]
+[u S557 . 1 `S554 1 . 1 0 ]
 "33592
 "33592
-[v _PWM1GIEbits PWM1GIEbits `VES553  1 e 1 @1128 ]
+[v _PWM1GIEbits PWM1GIEbits `VES557  1 e 1 @1128 ]
 "33607
 [v _PWM1CON PWM1CON `VEuc  1 e 1 @1129 ]
-[s S535 . 1 `uc 1 ERSNOW 1 0 :1:0 
+[s S539 . 1 `uc 1 ERSNOW 1 0 :1:0 
 `uc 1 ERSPOL 1 0 :1:1 
 `uc 1 LD 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 EN 1 0 :1:7 
 ]
 "33621
-[u S541 . 1 `S535 1 . 1 0 ]
+[u S545 . 1 `S539 1 . 1 0 ]
 "33621
 "33621
-[v _PWM1CONbits PWM1CONbits `VES541  1 e 1 @1129 ]
+[v _PWM1CONbits PWM1CONbits `VES545  1 e 1 @1129 ]
 "33646
 [v _PWM1S1CFG PWM1S1CFG `VEuc  1 e 1 @1130 ]
 "33712
@@ -860,7 +862,7 @@ channel_FVR_Buffer2 63
 [v _PWM1S1P2L PWM1S1P2L `VEuc  1 e 1 @1133 ]
 "33779
 [v _PWM1S1P2H PWM1S1P2H `VEuc  1 e 1 @1134 ]
-[s S646 . 1 `uc 1 SWIE 1 0 :1:0 
+[s S650 . 1 `uc 1 SWIE 1 0 :1:0 
 `uc 1 HLVDIE 1 0 :1:1 
 `uc 1 OSFIE 1 0 :1:2 
 `uc 1 CSWIE 1 0 :1:3 
@@ -870,11 +872,11 @@ channel_FVR_Buffer2 63
 `uc 1 IOCIE 1 0 :1:7 
 ]
 "34662
-[u S655 . 1 `S646 1 . 1 0 ]
+[u S659 . 1 `S650 1 . 1 0 ]
 "34662
 "34662
-[v _PIE0bits PIE0bits `VES655  1 e 1 @1192 ]
-[s S1013 . 1 `uc 1 INT0IE 1 0 :1:0 
+[v _PIE0bits PIE0bits `VES659  1 e 1 @1192 ]
+[s S1017 . 1 `uc 1 INT0IE 1 0 :1:0 
 `uc 1 ZCDIE 1 0 :1:1 
 `uc 1 ADIE 1 0 :1:2 
 `uc 1 ACTIE 1 0 :1:3 
@@ -884,15 +886,15 @@ channel_FVR_Buffer2 63
 `uc 1 SMT1PWAIE 1 0 :1:7 
 ]
 "34728
-[s S1022 . 1 `uc 1 . 1 0 :4:0 
+[s S1026 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CM1IE 1 0 :1:4 
 ]
 "34728
-[u S1025 . 1 `S1013 1 . 1 0 `S1022 1 . 1 0 ]
+[u S1029 . 1 `S1017 1 . 1 0 `S1026 1 . 1 0 ]
 "34728
 "34728
-[v _PIE1bits PIE1bits `VES1025  1 e 1 @1193 ]
-[s S483 . 1 `uc 1 U1RXIE 1 0 :1:0 
+[v _PIE1bits PIE1bits `VES1029  1 e 1 @1193 ]
+[s S487 . 1 `uc 1 U1RXIE 1 0 :1:0 
 `uc 1 U1TXIE 1 0 :1:1 
 `uc 1 U1EIE 1 0 :1:2 
 `uc 1 U1IE 1 0 :1:3 
@@ -902,11 +904,11 @@ channel_FVR_Buffer2 63
 `uc 1 PWM1IE 1 0 :1:7 
 ]
 "34902
-[u S492 . 1 `S483 1 . 1 0 ]
+[u S496 . 1 `S487 1 . 1 0 ]
 "34902
 "34902
-[v _PIE4bits PIE4bits `VES492  1 e 1 @1196 ]
-[s S625 . 1 `uc 1 SWIF 1 0 :1:0 
+[v _PIE4bits PIE4bits `VES496  1 e 1 @1196 ]
+[s S629 . 1 `uc 1 SWIF 1 0 :1:0 
 `uc 1 HLVDIF 1 0 :1:1 
 `uc 1 OSFIF 1 0 :1:2 
 `uc 1 CSWIF 1 0 :1:3 
@@ -916,11 +918,11 @@ channel_FVR_Buffer2 63
 `uc 1 IOCIF 1 0 :1:7 
 ]
 "35309
-[u S634 . 1 `S625 1 . 1 0 ]
+[u S638 . 1 `S629 1 . 1 0 ]
 "35309
 "35309
-[v _PIR0bits PIR0bits `VES634  1 e 1 @1203 ]
-[s S1041 . 1 `uc 1 INT0IF 1 0 :1:0 
+[v _PIR0bits PIR0bits `VES638  1 e 1 @1203 ]
+[s S1045 . 1 `uc 1 INT0IF 1 0 :1:0 
 `uc 1 ZCDIF 1 0 :1:1 
 `uc 1 ADIF 1 0 :1:2 
 `uc 1 ACTIF 1 0 :1:3 
@@ -930,15 +932,15 @@ channel_FVR_Buffer2 63
 `uc 1 SMT1PWAIF 1 0 :1:7 
 ]
 "35375
-[s S1050 . 1 `uc 1 . 1 0 :4:0 
+[s S1054 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 CM1IF 1 0 :1:4 
 ]
 "35375
-[u S1053 . 1 `S1041 1 . 1 0 `S1050 1 . 1 0 ]
+[u S1057 . 1 `S1045 1 . 1 0 `S1054 1 . 1 0 ]
 "35375
 "35375
-[v _PIR1bits PIR1bits `VES1053  1 e 1 @1204 ]
-[s S709 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+[v _PIR1bits PIR1bits `VES1057  1 e 1 @1204 ]
+[s S713 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
 `uc 1 SPI1TXIF 1 0 :1:1 
 `uc 1 SPI1IF 1 0 :1:2 
 `uc 1 TMR2IF 1 0 :1:3 
@@ -948,10 +950,10 @@ channel_FVR_Buffer2 63
 `uc 1 TMR0IF 1 0 :1:7 
 ]
 "35487
-[u S718 . 1 `S709 1 . 1 0 ]
+[u S722 . 1 `S713 1 . 1 0 ]
 "35487
 "35487
-[v _PIR3bits PIR3bits `VES718  1 e 1 @1206 ]
+[v _PIR3bits PIR3bits `VES722  1 e 1 @1206 ]
 [s S111 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
@@ -972,7 +974,7 @@ channel_FVR_Buffer2 63
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
 "36023
 [v _LATC LATC `VEuc  1 e 1 @1216 ]
-[s S387 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S391 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -982,10 +984,10 @@ channel_FVR_Buffer2 63
 `uc 1 LATC7 1 0 :1:7 
 ]
 "36040
-[u S396 . 1 `S387 1 . 1 0 ]
+[u S400 . 1 `S391 1 . 1 0 ]
 "36040
 "36040
-[v _LATCbits LATCbits `VES396  1 e 1 @1216 ]
+[v _LATCbits LATCbits `VES400  1 e 1 @1216 ]
 "36085
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
 "36135
@@ -1025,24 +1027,24 @@ channel_FVR_Buffer2 63
 [v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"57 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"57 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [v _ADCC_ADI_InterruptHandler ADCC_ADI_InterruptHandler `*.37(v  1 e 2 0 ]
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
 [v _bufferRAM bufferRAM `us  1 e 2 @5376 ]
-"56 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+"56 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
 [v _PWM1_16BIT_Slice1Output1_InterruptHandler PWM1_16BIT_Slice1Output1_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output1_InterruptHandler ]
 "57
 [v _PWM1_16BIT_Slice1Output2_InterruptHandler PWM1_16BIT_Slice1Output2_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output2_InterruptHandler ]
 "58
 [v _PWM1_16BIT_Period_InterruptHandler PWM1_16BIT_Period_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Period_InterruptHandler ]
-"57 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+"57 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
 [s S55 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
-"53 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+"53 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
 [u S60 . 1 `S55 1 . 1 0 `uc 1 status 1 0 ]
 [v _uart1RxLastError uart1RxLastError `VES60  1 s 1 uart1RxLastError ]
 "58
@@ -1051,15 +1053,30 @@ channel_FVR_Buffer2 63
 [v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "60
 [v _UART1_ErrorHandler UART1_ErrorHandler `*.37(v  1 e 2 0 ]
-"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
+"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"78
+"79
 } 0
-"18 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
+"18 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+[v _TempIndicator_Init TempIndicator_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"73 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+{
+"75
+[v FLASH_ReadWord@readWordH readWordH `uc  1 a 1 7 ]
+[v FLASH_ReadWord@readWordL readWordL `uc  1 a 1 6 ]
+"73
+[v FLASH_ReadWord@flashAddr flashAddr `ul  1 p 4 0 ]
+"91
+} 0
+"23 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
 [v _TempIndicator_Calc TempIndicator_Calc `(v  1 e 1 0 ]
 {
-"27
+"30
 } 0
 "15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
 [v ___tmul __tmul `(um  1 e 3 0 ]
@@ -1084,27 +1101,17 @@ channel_FVR_Buffer2 63
 [v ___atdiv@divisor divisor `m  1 p 3 3 ]
 "41
 } 0
-"73 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
-{
-"75
-[v FLASH_ReadWord@readWordH readWordH `uc  1 a 1 7 ]
-[v FLASH_ReadWord@readWordL readWordL `uc  1 a 1 6 ]
-"73
-[v FLASH_ReadWord@flashAddr flashAddr `ul  1 p 4 0 ]
-"91
-} 0
-"138 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"138 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
 {
 "142
 } 0
-"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+"50 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "63
 } 0
-"66 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+"66 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
 {
 "124
@@ -1127,17 +1134,17 @@ channel_FVR_Buffer2 63
 [v UART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
 "210
 } 0
-"62 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+"62 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "86
 } 0
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
 "90
 } 0
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
 [v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
 {
 "132
@@ -1160,37 +1167,37 @@ channel_FVR_Buffer2 63
 [v PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "205
 } 0
-"81 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+"81 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
 "95
 } 0
-"55 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "121
 } 0
-"65 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+"65 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "79
 } 0
-"52 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+"52 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 {
 "56
 } 0
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
 [v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
 {
 "62
 } 0
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
 [v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
 {
 "91
 } 0
-"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"63 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 {
 "118
@@ -1201,7 +1208,7 @@ channel_FVR_Buffer2 63
 [v ADCC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "317
 } 0
-"12 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
+"12 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
 [v _IntroSplashMessage IntroSplashMessage `(v  1 e 1 0 ]
 {
 "16
@@ -1220,9 +1227,9 @@ channel_FVR_Buffer2 63
 {
 "1371
 [v vfprintf@cfmt cfmt `*.32uc  1 a 2 87 ]
-[s S2316 _IO_FILE 0 ]
+[s S2321 _IO_FILE 0 ]
 "1368
-[v vfprintf@fp fp `*.2S2316  1 p 2 81 ]
+[v vfprintf@fp fp `*.2S2321  1 p 2 81 ]
 [v vfprintf@fmt fmt `*.32Cuc  1 p 2 83 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 85 ]
 "1382
@@ -1232,9 +1239,9 @@ channel_FVR_Buffer2 63
 {
 "674
 [v vfpfcnvrt@ll ll `o  1 a 8 73 ]
-[s S2316 _IO_FILE 0 ]
+[s S2321 _IO_FILE 0 ]
 "670
-[v vfpfcnvrt@fp fp `*.2S2316  1 p 2 65 ]
+[v vfpfcnvrt@fp fp `*.2S2321  1 p 2 65 ]
 [v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 67 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 69 ]
 "1365
@@ -1249,9 +1256,9 @@ channel_FVR_Buffer2 63
 [v dtoa@s s `i  1 a 2 53 ]
 [v dtoa@w w `i  1 a 2 51 ]
 [v dtoa@p p `i  1 a 2 49 ]
-[s S2316 _IO_FILE 0 ]
+[s S2321 _IO_FILE 0 ]
 "274
-[v dtoa@fp fp `*.2S2316  1 p 2 29 ]
+[v dtoa@fp fp `*.2S2321  1 p 2 29 ]
 [v dtoa@d d `o  1 p 8 31 ]
 "315
 } 0
@@ -1261,9 +1268,9 @@ channel_FVR_Buffer2 63
 "74
 [v pad@w w `i  1 a 2 27 ]
 [v pad@i i `i  1 a 2 25 ]
-[s S2316 _IO_FILE 0 ]
+[s S2321 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.2S2316  1 p 2 18 ]
+[v pad@fp fp `*.2S2321  1 p 2 18 ]
 [v pad@buf buf `*.39uc  1 p 2 20 ]
 [v pad@p p `i  1 p 2 22 ]
 "95
@@ -1286,19 +1293,19 @@ channel_FVR_Buffer2 63
 [v fputs@c c `uc  1 a 1 15 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 11 ]
-[s S2300 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.2S2300  1 p 2 13 ]
+[s S2305 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S2305  1 p 2 13 ]
 "19
 } 0
 "8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 2 ]
-[s S2300 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.2S2300  1 p 2 4 ]
+[s S2305 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S2305  1 p 2 4 ]
 "21
 } 0
-"184 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+"184 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
 [v _putch putch `(v  1 e 1 0 ]
 {
 [v putch@txData txData `uc  1 a 1 wreg ]
@@ -1345,17 +1352,17 @@ channel_FVR_Buffer2 63
 [v ___aodiv@divisor divisor `o  1 p 8 8 ]
 "43
 } 0
-"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+"58 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
 {
 "73
 } 0
-"93 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+"93 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
 [v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
 {
 "98
 } 0
-"306 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+"306 C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
 [v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
 {
 "313

@@ -63,6 +63,7 @@ void main(void) {
 
     ADPCH = channel_Temp;
     IntroSplashMessage();
+    TempIndicator_Init();
 
     while (1) {
         // Add your application code

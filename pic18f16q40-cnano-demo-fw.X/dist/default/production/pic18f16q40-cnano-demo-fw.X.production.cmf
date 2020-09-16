@@ -13,58 +13,59 @@
 %PSECTS
 $dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ivt0x8 CODE 0 8 8 12 1
-cinit CODE 0 270C 270C 20 1
+cinit CODE 0 2712 2712 20 1
 idloc IDLOC 5 200000 200000 20 1
-text0 CODE 0 21C8 21C8 78 1
-text1 CODE 0 1E8C 1E8C F8 1
-text2 CODE 0 2462 2462 58 1
-text3 CODE 0 1F84 1F84 E8 1
-text4 CODE 0 2630 2630 30 1
-text5 CODE 0 279A 279A 16 1
-text6 CODE 0 2690 2690 2E 1
-text7 CODE 0 2390 2390 6A 1
-text8 CODE 0 27B0 27B0 A 1
-text9 CODE 0 27BA 27BA A 1
-text10 CODE 0 27C4 27C4 A 1
-text11 CODE 0 272C 272C 1E 1
-text12 CODE 0 2584 2584 3A 1
-text13 CODE 0 22B6 22B6 6E 1
-text14 CODE 0 27CE 27CE A 1
-text15 CODE 0 27D8 27D8 A 1
-text16 CODE 0 27E2 27E2 A 1
-text17 CODE 0 274A 274A 1C 1
-text18 CODE 0 2240 2240 76 1
-text19 CODE 0 2766 2766 1C 1
-text20 CODE 0 281A 281A 4 1
-text21 CODE 0 280A 280A 8 1
-text22 CODE 0 25F8 25F8 38 1
-text23 CODE 0 2324 2324 6C 1
-text24 CODE 0 27EC 27EC A 1
-text25 CODE 0 26E6 26E6 26 1
-text26 CODE 0 26BE 26BE 28 1
-text27 CODE 0 23FA 23FA 68 1
-text28 CODE 0 19AA 19AA 1F6 1
-text29 CODE 0 16C6 16C6 2E4 1
-text30 CODE 0 206C 206C C6 1
-text31 CODE 0 25BE 25BE 3A 1
-text32 CODE 0 2500 2500 44 1
-text33 CODE 0 2132 2132 96 1
-text34 CODE 0 27F6 27F6 A 1
-text35 CODE 0 2782 2782 18 1
-text36 CODE 0 2544 2544 40 1
-text37 CODE 0 1D28 1D28 164 1
-text38 CODE 0 1BA0 1BA0 188 1
-text39 CODE 0 24BA 24BA 46 1
-text40 CODE 0 2800 2800 A 1
-text41 CODE 0 2660 2660 30 1
-text42 CODE 0 2812 2812 8 1
-nvBANK5 BANK5 1 594 594 10 1
+text0 CODE 0 2190 2190 7C 1
+text1 CODE 0 2550 2550 3A 1
+text2 CODE 0 2636 2636 30 1
+text3 CODE 0 203A 203A C0 1
+text4 CODE 0 242E 242E 58 1
+text5 CODE 0 1E8C 1E8C E8 1
+text6 CODE 0 27A0 27A0 16 1
+text7 CODE 0 2696 2696 2E 1
+text8 CODE 0 235C 235C 6A 1
+text9 CODE 0 27B6 27B6 A 1
+text10 CODE 0 27C0 27C0 A 1
+text11 CODE 0 27CA 27CA A 1
+text12 CODE 0 2732 2732 1E 1
+text13 CODE 0 258A 258A 3A 1
+text14 CODE 0 2282 2282 6E 1
+text15 CODE 0 27D4 27D4 A 1
+text16 CODE 0 27DE 27DE A 1
+text17 CODE 0 27E8 27E8 A 1
+text18 CODE 0 2750 2750 1C 1
+text19 CODE 0 220C 220C 76 1
+text20 CODE 0 276C 276C 1C 1
+text21 CODE 0 2820 2820 4 1
+text22 CODE 0 2810 2810 8 1
+text23 CODE 0 25FE 25FE 38 1
+text24 CODE 0 22F0 22F0 6C 1
+text25 CODE 0 27F2 27F2 A 1
+text26 CODE 0 26EC 26EC 26 1
+text27 CODE 0 26C4 26C4 28 1
+text28 CODE 0 23C6 23C6 68 1
+text29 CODE 0 19AA 19AA 1F6 1
+text30 CODE 0 16C6 16C6 2E4 1
+text31 CODE 0 1F74 1F74 C6 1
+text32 CODE 0 25C4 25C4 3A 1
+text33 CODE 0 24CC 24CC 44 1
+text34 CODE 0 20FA 20FA 96 1
+text35 CODE 0 27FC 27FC A 1
+text36 CODE 0 2788 2788 18 1
+text37 CODE 0 2510 2510 40 1
+text38 CODE 0 1D28 1D28 164 1
+text39 CODE 0 1BA0 1BA0 188 1
+text40 CODE 0 2486 2486 46 1
+text41 CODE 0 2806 2806 A 1
+text42 CODE 0 2666 2666 30 1
+text43 CODE 0 2818 2818 8 1
+nvBANK5 BANK5 1 590 590 14 1
 cstackCOMRAM COMRAM 1 501 501 5F 1
 cstackBANK5 BANK5 1 5A4 5A4 7 1
-bssBANK5 BANK5 1 560 560 34 1
+bssBANK5 BANK5 1 560 560 30 1
 smallconst SMALLCONST 0 1600 1600 C6 1
 config CONFIG 4 300000 300000 A 1
-$C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+$C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 idloc IDLOC 5 200000 200000 20 1
 init CODE 0 1A 1A 4 1
 reset_vec CODE 0 0 0 4 1
@@ -85,12 +86,12 @@ BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 4-7 1
 CONST 1E-15FF 1
-CONST 281E-FFFF 1
+CONST 2824-FFFF 1
 STACK 5AB-14FF 1
-SMALLCONST 281E-FFFF 1
+SMALLCONST 2824-FFFF 1
 CODE 4-7 1
 CODE 1E-15FF 1
-CODE 281E-FFFF 1
+CODE 2824-FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -107,7 +108,7 @@ BIGRAM 5AB-14FF 1
 BIGRAM 1502-15FF 1
 CONFIG 30000A-300011 1
 EEDATA 380000-3803FF 1
-MEDIUMCONST 281E-FFFF 1
+MEDIUMCONST 2824-FFFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -122,462 +123,465 @@ MEDIUMCONST 281E-FFFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-2812 text42 CODE >319:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2812 text42 CODE >322:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2818 text42 CODE >323:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2660 text41 CODE >306:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2660 text41 CODE >309:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2662 text41 CODE >311:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2676 text41 CODE >312:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-268E text41 CODE >313:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2800 text40 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2800 text40 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2802 text40 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2808 text40 CODE >98:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-24BA text39 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24BA text39 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24D6 text39 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24DA text39 CODE >64:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24DE text39 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24FA text39 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-24FE text39 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-1BA0 text38 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BA0 text38 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BA4 text38 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BB2 text38 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BD2 text38 CODE >18:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BD6 text38 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1BE4 text38 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C04 text38 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C08 text38 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C14 text38 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C32 text38 CODE >26:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C36 text38 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C3A text38 CODE >28:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C4C text38 CODE >29:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C4E text38 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C5C text38 CODE >32:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C6E text38 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1C9C text38 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1CBC text38 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1CBE text38 CODE >37:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1CD0 text38 CODE >38:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1CD6 text38 CODE >40:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1CE6 text38 CODE >41:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1D06 text38 CODE >42:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1D26 text38 CODE >43:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
-1D28 text37 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D28 text37 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D2C text37 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D3A text37 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D5A text37 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D5E text37 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D6C text37 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1D8C text37 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DAA text37 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DAE text37 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DB2 text37 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DC4 text37 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DC6 text37 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1DD4 text37 CODE >28:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E02 text37 CODE >29:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E22 text37 CODE >30:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E34 text37 CODE >31:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E3A text37 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E4A text37 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E6A text37 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-1E8A text37 CODE >36:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
-2544 text36 CODE >1:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
-2544 text36 CODE >3:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
-2582 text36 CODE >4:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
-2782 text35 CODE >170:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2784 text35 CODE >172:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2784 text35 CODE >174:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2792 text35 CODE >176:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2798 text35 CODE >177:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27F6 text34 CODE >184:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27F8 text34 CODE >186:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27FE text34 CODE >187:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2132 text33 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-2132 text33 CODE >12:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-2156 text33 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-215C text33 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-2160 text33 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-21B4 text33 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-21C6 text33 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
-2500 text32 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-2500 text32 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-2508 text32 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-250C text32 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-251E text32 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-2522 text32 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-2542 text32 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
-25BE text31 CODE >5:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25BE text31 CODE >7:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25C6 text31 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25CA text31 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25CE text31 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25EA text31 CODE >11:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-25F6 text31 CODE >12:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
-206C text30 CODE >72:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-206C text30 CODE >77:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-207C text30 CODE >78:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2090 text30 CODE >82:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20B2 text30 CODE >83:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20BA text30 CODE >84:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20BE text30 CODE >85:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20D2 text30 CODE >86:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20D6 text30 CODE >84:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-20F4 text30 CODE >90:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2104 text30 CODE >91:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2118 text30 CODE >94:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2130 text30 CODE >95:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-16C6 text29 CODE >274:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-16C6 text29 CODE >280:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-16E6 text29 CODE >281:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-16FC text29 CODE >282:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-170E text29 CODE >283:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-172E text29 CODE >287:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-173E text29 CODE >288:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1740 text29 CODE >290:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-176E text29 CODE >291:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1776 text29 CODE >292:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1796 text29 CODE >293:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-179C text29 CODE >297:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-17A4 text29 CODE >298:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-17A8 text29 CODE >299:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-17AC text29 CODE >300:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-17B2 text29 CODE >301:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1834 text29 CODE >302:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-183A text29 CODE >303:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1840 text29 CODE >304:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-18A4 text29 CODE >299:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1920 text29 CODE >308:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1942 text29 CODE >309:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1948 text29 CODE >310:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1980 text29 CODE >314:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19A8 text29 CODE >315:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19AA text28 CODE >670:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19AA text28 CODE >680:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19D4 text28 CODE >681:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19E6 text28 CODE >683:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19F8 text28 CODE >684:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-19FC text28 CODE >825:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1A50 text28 CODE >827:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1A62 text28 CODE >828:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1AAC text28 CODE >830:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1AE4 text28 CODE >1350:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B0E text28 CODE >1351:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B20 text28 CODE >1352:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B34 text28 CODE >1353:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B40 text28 CODE >1357:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B52 text28 CODE >1358:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B5E text28 CODE >1362:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B88 text28 CODE >1363:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-1B9E text28 CODE >1365:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-23FA text27 CODE >1368:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-23FA text27 CODE >1373:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2402 text27 CODE >1374:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-240C text27 CODE >1375:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2410 text27 CODE >1376:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2436 text27 CODE >1375:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2458 text27 CODE >1378:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-2460 text27 CODE >1382:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
-26BE text26 CODE >5:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
-26BE text26 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
-26C8 text26 CODE >10:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
-26E4 text26 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
-26E6 text25 CODE >12:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-26E6 text25 CODE >13:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-26F2 text25 CODE >14:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-26FE text25 CODE >15:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-270A text25 CODE >16:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-27EC text24 CODE >315:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-27EC text24 CODE >316:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-27F4 text24 CODE >317:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2324 text23 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2324 text23 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-232A text23 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-232E text23 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2332 text23 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2336 text23 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-233A text23 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-233E text23 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2342 text23 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2346 text23 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-234A text23 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-234E text23 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2352 text23 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2356 text23 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-235A text23 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-235E text23 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2362 text23 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2366 text23 CODE >99:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-236A text23 CODE >101:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-236E text23 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2372 text23 CODE >105:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2376 text23 CODE >107:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-237A text23 CODE >109:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-237E text23 CODE >112:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2380 text23 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2382 text23 CODE >116:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-238E text23 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-25F8 text22 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-25F8 text22 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-25FE text22 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2602 text22 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2606 text22 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-260A text22 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-260E text22 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2612 text22 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2616 text22 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-261A text22 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-261E text22 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2622 text22 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-2626 text22 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-262A text22 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-262C text22 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-262E text22 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
-280A text21 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
-280A text21 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
-2810 text21 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
-281A text20 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-281A text20 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-281C text20 CODE >56:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
-2766 text19 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2766 text19 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-276C text19 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2770 text19 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2774 text19 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2778 text19 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-277C text19 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2780 text19 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2240 text18 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2240 text18 CODE >60:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2244 text18 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2248 text18 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-224C text18 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2250 text18 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2254 text18 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2258 text18 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-225E text18 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2262 text18 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2266 text18 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-226A text18 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-226E text18 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2272 text18 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2276 text18 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-227A text18 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-227E text18 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2282 text18 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2286 text18 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2288 text18 CODE >102:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-228C text18 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2290 text18 CODE >104:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2292 text18 CODE >113:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-2298 text18 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-229C text18 CODE >115:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22A0 text18 CODE >116:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22A4 text18 CODE >117:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22A8 text18 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22AC text18 CODE >119:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22B0 text18 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-22B4 text18 CODE >121:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
-274A text17 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-274A text17 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2750 text17 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2754 text17 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2758 text17 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-275C text17 CODE >92:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2760 text17 CODE >94:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2764 text17 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-27E2 text16 CODE >202:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27E2 text16 CODE >204:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27EA text16 CODE >205:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27D8 text15 CODE >192:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27D8 text15 CODE >194:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27E0 text15 CODE >195:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27CE text14 CODE >197:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27CE text14 CODE >199:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-27D6 text14 CODE >200:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22B6 text13 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22B6 text13 CODE >66:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22BA text13 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22BE text13 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22C2 text13 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22C6 text13 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22CA text13 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22CE text13 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22D2 text13 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22D6 text13 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22DA text13 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22DE text13 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22E2 text13 CODE >99:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22E6 text13 CODE >102:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22EA text13 CODE >105:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22EE text13 CODE >108:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22F0 text13 CODE >111:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22F2 text13 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22F4 text13 CODE >117:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22F6 text13 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22F8 text13 CODE >123:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-22FA text13 CODE >126:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-2306 text13 CODE >127:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-2312 text13 CODE >128:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-231E text13 CODE >131:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-2322 text13 CODE >132:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
-2584 text12 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-2584 text12 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-258A text12 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-258E text12 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-2592 text12 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-2596 text12 CODE >80:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-259A text12 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-259C text12 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-25B6 text12 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-25BC text12 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
-272C text11 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-272C text11 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-2732 text11 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-2736 text11 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-273A text11 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-273E text11 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-2742 text11 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-2744 text11 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-2748 text11 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
-27C4 text10 CODE >208:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27C4 text10 CODE >209:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27CC text10 CODE >210:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27BA text9 CODE >200:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27BA text9 CODE >201:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27C2 text9 CODE >202:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27B0 text8 CODE >204:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27B0 text8 CODE >205:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-27B8 text8 CODE >206:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2390 text7 CODE >66:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2390 text7 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2396 text7 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-239A text7 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-239E text7 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23A2 text7 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23A6 text7 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23AA text7 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23AE text7 CODE >94:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23B2 text7 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23B6 text7 CODE >100:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23BA text7 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23BE text7 CODE >106:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23C2 text7 CODE >109:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23C6 text7 CODE >112:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23CA text7 CODE >115:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23CE text7 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23DA text7 CODE >119:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23E6 text7 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23F2 text7 CODE >122:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-23F8 text7 CODE >124:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
-2690 text6 CODE >50:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2690 text6 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2694 text6 CODE >53:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-2698 text6 CODE >54:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-269C text6 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26A0 text6 CODE >56:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26A4 text6 CODE >57:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26A8 text6 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26AC text6 CODE >59:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26B0 text6 CODE >60:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26B4 text6 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26B8 text6 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-26BC text6 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
-279A text5 CODE >138:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-279A text5 CODE >141:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-27AE text5 CODE >142:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
-2630 text4 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-2630 text4 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-2636 text4 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-263C text4 CODE >80:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-2642 text4 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-2644 text4 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-264A text4 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-264C text4 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-2652 text4 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-265E text4 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
-1F84 text3 CODE >7:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1F84 text3 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1F88 text3 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1F96 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FA2 text3 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FA6 text3 CODE >18:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FB4 text3 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FC0 text3 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FC4 text3 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FD0 text3 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FE4 text3 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FE8 text3 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FEC text3 CODE >26:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FF4 text3 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-1FF6 text3 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2004 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-200C text3 CODE >31:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2026 text3 CODE >32:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2032 text3 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2034 text3 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2034 text3 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-203C text3 CODE >36:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2042 text3 CODE >38:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2052 text3 CODE >39:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-205E text3 CODE >40:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-206A text3 CODE >41:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
-2462 text2 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-2462 text2 CODE >89:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-246E text2 CODE >91:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-247C text2 CODE >92:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-2488 text2 CODE >93:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-2490 text2 CODE >94:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-2498 text2 CODE >95:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-24AC text2 CODE >98:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-24B8 text2 CODE >99:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
-1E8C text1 CODE >18:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1E8C text1 CODE >19:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1EA8 text1 CODE >20:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1EC4 text1 CODE >21:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1ED0 text1 CODE >22:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1EF8 text1 CODE >23:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1F20 text1 CODE >24:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1F42 text1 CODE >25:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1F6A text1 CODE >26:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-1F82 text1 CODE >27:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\application.c
-270C cinit CODE >18217:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-270C cinit CODE >18219:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-270C cinit CODE >18222:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-270C cinit CODE >18261:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2710 cinit CODE >18262:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2712 cinit CODE >18263:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2712 cinit CODE >18264:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2714 cinit CODE >18265:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2716 cinit CODE >18266:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2718 cinit CODE >18274:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-271A cinit CODE >18275:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-271C cinit CODE >18276:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-271E cinit CODE >18277:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2720 cinit CODE >18278:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2722 cinit CODE >18279:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2724 cinit CODE >18280:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2726 cinit CODE >18286:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2726 cinit CODE >18288:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-2728 cinit CODE >18289:C:\Users\C16783\AppData\Local\Temp\s4lb0.s
-21C8 text0 CODE >37716:C:/Users/C16783/.mchp_packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f16q40.h
-21C8 text0 CODE >50:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21C8 text0 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21CC text0 CODE >59:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21CE text0 CODE >64:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21D4 text0 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21D8 text0 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21EA text0 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-21EE text0 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-2210 text0 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-221C text0 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-2230 text0 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
-2234 text0 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\pic18f16q40-cnano-demo-fw.X\main.c
+2818 text43 CODE >319:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2818 text43 CODE >322:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+281E text43 CODE >323:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2666 text42 CODE >306:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2666 text42 CODE >309:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2668 text42 CODE >311:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+267C text42 CODE >312:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2694 text42 CODE >313:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2806 text41 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2806 text41 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2808 text41 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+280E text41 CODE >98:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2486 text40 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+2486 text40 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+24A2 text40 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+24A6 text40 CODE >64:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+24AA text40 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+24C6 text40 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+24CA text40 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+1BA0 text39 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BA0 text39 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BA4 text39 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BB2 text39 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BD2 text39 CODE >18:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BD6 text39 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1BE4 text39 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C04 text39 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C08 text39 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C14 text39 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C32 text39 CODE >26:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C36 text39 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C3A text39 CODE >28:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C4C text39 CODE >29:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C4E text39 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C5C text39 CODE >32:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C6E text39 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1C9C text39 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1CBC text39 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1CBE text39 CODE >37:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1CD0 text39 CODE >38:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1CD6 text39 CODE >40:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1CE6 text39 CODE >41:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1D06 text39 CODE >42:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1D26 text39 CODE >43:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aodiv.c
+1D28 text38 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D28 text38 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D2C text38 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D3A text38 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D5A text38 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D5E text38 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D6C text38 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1D8C text38 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DAA text38 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DAE text38 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DB2 text38 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DC4 text38 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DC6 text38 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1DD4 text38 CODE >28:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E02 text38 CODE >29:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E22 text38 CODE >30:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E34 text38 CODE >31:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E3A text38 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E4A text38 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E6A text38 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+1E8A text38 CODE >36:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\aomod.c
+2510 text37 CODE >1:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
+2510 text37 CODE >3:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
+254E text37 CODE >4:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\abs.c
+2788 text36 CODE >170:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+278A text36 CODE >172:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+278A text36 CODE >174:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2798 text36 CODE >176:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+279E text36 CODE >177:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27FC text35 CODE >184:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27FE text35 CODE >186:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2804 text35 CODE >187:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+20FA text34 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+20FA text34 CODE >12:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+211E text34 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+2124 text34 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+2128 text34 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+217C text34 CODE >17:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+218E text34 CODE >21:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputc.c
+24CC text33 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+24CC text33 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+24D4 text33 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+24D8 text33 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+24EA text33 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+24EE text33 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+250E text33 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\nf_fputs.c
+25C4 text32 CODE >5:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25C4 text32 CODE >7:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25CC text32 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25D0 text32 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25D4 text32 CODE >8:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25F0 text32 CODE >11:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+25FC text32 CODE >12:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\strlen.c
+1F74 text31 CODE >72:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1F74 text31 CODE >77:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1F84 text31 CODE >78:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1F98 text31 CODE >82:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FBA text31 CODE >83:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FC2 text31 CODE >84:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FC6 text31 CODE >85:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FDA text31 CODE >86:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FDE text31 CODE >84:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1FFC text31 CODE >90:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+200C text31 CODE >91:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+2020 text31 CODE >94:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+2038 text31 CODE >95:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+16C6 text30 CODE >274:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+16C6 text30 CODE >280:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+16E6 text30 CODE >281:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+16FC text30 CODE >282:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+170E text30 CODE >283:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+172E text30 CODE >287:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+173E text30 CODE >288:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1740 text30 CODE >290:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+176E text30 CODE >291:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1776 text30 CODE >292:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1796 text30 CODE >293:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+179C text30 CODE >297:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+17A4 text30 CODE >298:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+17A8 text30 CODE >299:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+17AC text30 CODE >300:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+17B2 text30 CODE >301:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1834 text30 CODE >302:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+183A text30 CODE >303:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1840 text30 CODE >304:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+18A4 text30 CODE >299:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1920 text30 CODE >308:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1942 text30 CODE >309:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1948 text30 CODE >310:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1980 text30 CODE >314:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19A8 text30 CODE >315:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19AA text29 CODE >670:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19AA text29 CODE >680:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19D4 text29 CODE >681:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19E6 text29 CODE >683:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19F8 text29 CODE >684:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+19FC text29 CODE >825:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1A50 text29 CODE >827:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1A62 text29 CODE >828:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1AAC text29 CODE >830:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1AE4 text29 CODE >1350:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B0E text29 CODE >1351:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B20 text29 CODE >1352:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B34 text29 CODE >1353:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B40 text29 CODE >1357:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B52 text29 CODE >1358:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B5E text29 CODE >1362:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B88 text29 CODE >1363:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+1B9E text29 CODE >1365:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+23C6 text28 CODE >1368:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+23C6 text28 CODE >1373:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+23CE text28 CODE >1374:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+23D8 text28 CODE >1375:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+23DC text28 CODE >1376:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+2402 text28 CODE >1375:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+2424 text28 CODE >1378:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+242C text28 CODE >1382:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\doprnt.c
+26C4 text27 CODE >5:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+26C4 text27 CODE >9:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+26CE text27 CODE >10:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+26EA text27 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\printf.c
+26EC text26 CODE >12:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+26EC text26 CODE >13:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+26F8 text26 CODE >14:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2704 text26 CODE >15:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2710 text26 CODE >16:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+27F2 text25 CODE >315:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+27F2 text25 CODE >316:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+27FA text25 CODE >317:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+22F0 text24 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+22F0 text24 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+22F6 text24 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+22FA text24 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+22FE text24 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2302 text24 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2306 text24 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+230A text24 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+230E text24 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2312 text24 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2316 text24 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+231A text24 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+231E text24 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2322 text24 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2326 text24 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+232A text24 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+232E text24 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2332 text24 CODE >99:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2336 text24 CODE >101:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+233A text24 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+233E text24 CODE >105:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2342 text24 CODE >107:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+2346 text24 CODE >109:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+234A text24 CODE >112:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+234C text24 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+234E text24 CODE >116:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+235A text24 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+25FE text23 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+25FE text23 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2604 text23 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2608 text23 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+260C text23 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2610 text23 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2614 text23 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2618 text23 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+261C text23 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2620 text23 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2624 text23 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2628 text23 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+262C text23 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2630 text23 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2632 text23 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2634 text23 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc1.c
+2810 text22 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
+2810 text22 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
+2816 text22 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr.c
+2820 text21 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+2820 text21 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+2822 text21 CODE >56:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/interrupt_manager.c
+276C text20 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+276C text20 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2772 text20 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2776 text20 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+277A text20 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+277E text20 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2782 text20 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2786 text20 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+220C text19 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+220C text19 CODE >60:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2210 text19 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2214 text19 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2218 text19 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+221C text19 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2220 text19 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2224 text19 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+222A text19 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+222E text19 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2232 text19 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2236 text19 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+223A text19 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+223E text19 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2242 text19 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2246 text19 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+224A text19 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+224E text19 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2252 text19 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2254 text19 CODE >102:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2258 text19 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+225C text19 CODE >104:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+225E text19 CODE >113:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2264 text19 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2268 text19 CODE >115:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+226C text19 CODE >116:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2270 text19 CODE >117:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2274 text19 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2278 text19 CODE >119:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+227C text19 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2280 text19 CODE >121:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pin_manager.c
+2750 text18 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2750 text18 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2756 text18 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+275A text18 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+275E text18 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2762 text18 CODE >92:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2766 text18 CODE >94:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+276A text18 CODE >95:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+27E8 text17 CODE >202:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27E8 text17 CODE >204:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27F0 text17 CODE >205:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27DE text16 CODE >192:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27DE text16 CODE >194:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27E6 text16 CODE >195:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27D4 text15 CODE >197:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27D4 text15 CODE >199:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+27DC text15 CODE >200:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+2282 text14 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+2282 text14 CODE >66:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+2286 text14 CODE >69:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+228A text14 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+228E text14 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+2292 text14 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+2296 text14 CODE >81:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+229A text14 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+229E text14 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22A2 text14 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22A6 text14 CODE >93:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22AA text14 CODE >96:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22AE text14 CODE >99:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22B2 text14 CODE >102:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22B6 text14 CODE >105:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22BA text14 CODE >108:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22BC text14 CODE >111:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22BE text14 CODE >114:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22C0 text14 CODE >117:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22C2 text14 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22C4 text14 CODE >123:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22C6 text14 CODE >126:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22D2 text14 CODE >127:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22DE text14 CODE >128:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22EA text14 CODE >131:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+22EE text14 CODE >132:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm1_16bit.c
+258A text13 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+258A text13 CODE >68:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+2590 text13 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+2594 text13 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+2598 text13 CODE >77:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+259C text13 CODE >80:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+25A0 text13 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+25A2 text13 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+25BC text13 CODE >89:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+25C2 text13 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr1.c
+2732 text12 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+2732 text12 CODE >67:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+2738 text12 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+273C text12 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+2740 text12 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+2744 text12 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+2748 text12 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+274A text12 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+274E text12 CODE >86:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/tmr2.c
+27CA text11 CODE >208:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27CA text11 CODE >209:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27D2 text11 CODE >210:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27C0 text10 CODE >200:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27C0 text10 CODE >201:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27C8 text10 CODE >202:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27B6 text9 CODE >204:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27B6 text9 CODE >205:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+27BE text9 CODE >206:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+235C text8 CODE >66:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+235C text8 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2362 text8 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2366 text8 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+236A text8 CODE >82:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+236E text8 CODE >85:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2372 text8 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2376 text8 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+237A text8 CODE >94:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+237E text8 CODE >97:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2382 text8 CODE >100:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2386 text8 CODE >103:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+238A text8 CODE >106:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+238E text8 CODE >109:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2392 text8 CODE >112:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2396 text8 CODE >115:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+239A text8 CODE >118:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+23A6 text8 CODE >119:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+23B2 text8 CODE >120:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+23BE text8 CODE >122:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+23C4 text8 CODE >124:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart1.c
+2696 text7 CODE >50:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+2696 text7 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+269A text7 CODE >53:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+269E text7 CODE >54:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26A2 text7 CODE >55:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26A6 text7 CODE >56:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26AA text7 CODE >57:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26AE text7 CODE >58:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26B2 text7 CODE >59:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26B6 text7 CODE >60:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26BA text7 CODE >61:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26BE text7 CODE >62:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+26C2 text7 CODE >63:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/mcc.c
+27A0 text6 CODE >138:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+27A0 text6 CODE >141:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+27B4 text6 CODE >142:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adcc.c
+1E8C text5 CODE >7:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1E8C text5 CODE >13:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1E90 text5 CODE >14:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1E9E text5 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EAA text5 CODE >16:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EAE text5 CODE >18:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EBC text5 CODE >19:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EC8 text5 CODE >20:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1ECC text5 CODE >22:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1ED8 text5 CODE >23:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EEC text5 CODE >24:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EF0 text5 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EF4 text5 CODE >26:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EFC text5 CODE >27:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1EFE text5 CODE >25:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F0C text5 CODE >30:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F14 text5 CODE >31:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F2E text5 CODE >32:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F3A text5 CODE >33:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F3C text5 CODE >34:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F3C text5 CODE >35:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F44 text5 CODE >36:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F4A text5 CODE >38:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F5A text5 CODE >39:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F66 text5 CODE >40:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+1F72 text5 CODE >41:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atdiv.c
+242E text4 CODE >15:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+242E text4 CODE >89:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+243A text4 CODE >91:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+2448 text4 CODE >92:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+2454 text4 CODE >93:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+245C text4 CODE >94:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+2464 text4 CODE >95:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+2478 text4 CODE >98:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+2484 text4 CODE >99:C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul24.c
+203A text3 CODE >23:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+203A text3 CODE >24:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2046 text3 CODE >25:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+206E text3 CODE >26:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2096 text3 CODE >27:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+20B8 text3 CODE >28:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+20E0 text3 CODE >29:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+20F8 text3 CODE >30:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2636 text2 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2636 text2 CODE >78:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+263C text2 CODE >79:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2642 text2 CODE >80:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2648 text2 CODE >83:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+264A text2 CODE >84:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2650 text2 CODE >87:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2652 text2 CODE >88:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2658 text2 CODE >90:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2664 text2 CODE >91:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/memory.c
+2550 text1 CODE >18:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2550 text1 CODE >19:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+256C text1 CODE >20:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2588 text1 CODE >21:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\application.c
+2712 cinit CODE >18224:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2712 cinit CODE >18226:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2712 cinit CODE >18229:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2712 cinit CODE >18262:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2716 cinit CODE >18263:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2718 cinit CODE >18264:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2718 cinit CODE >18265:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+271A cinit CODE >18266:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+271C cinit CODE >18267:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+271E cinit CODE >18275:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2720 cinit CODE >18276:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2722 cinit CODE >18277:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2724 cinit CODE >18278:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2726 cinit CODE >18279:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2728 cinit CODE >18280:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+272A cinit CODE >18281:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+272C cinit CODE >18287:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+272C cinit CODE >18289:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+272E cinit CODE >18290:C:\Users\C16783\AppData\Local\Temp\s3ei8.s
+2190 text0 CODE >37716:C:/Users/C16783/.mchp_packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f16q40.h
+2190 text0 CODE >50:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+2190 text0 CODE >52:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+2194 text0 CODE >59:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+2196 text0 CODE >64:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+219C text0 CODE >65:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21A0 text0 CODE >66:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21A4 text0 CODE >70:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21B6 text0 CODE >71:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21BA text0 CODE >72:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21DC text0 CODE >73:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21E8 text0 CODE >74:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+21FC text0 CODE >75:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
+2200 text0 CODE >76:C:\Users\C16783\Desktop\MPLABX Projects\pic18f16q40-cnano-demo-fw\New folder\pic18f16q40-cnano-demo-fw.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -591,8 +595,8 @@ $dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Slice1Output1_InterruptHandler 59C 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__Hspace_0 281E 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Slice1Output1_InterruptHandler 598 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__Hspace_0 2824 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hspace_1 5AB 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -615,20 +619,20 @@ _PWM1GIR 467 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.produ
 _PWM1LDS 462 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1PRH 464 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1PRL 463 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_IntroSplashMessage 270C 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_IntroSplashMessage 2712 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_UART1_SetFramingErrorHandler 27C4 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_UART1_SetFramingErrorHandler 27CA 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _TBLPTRH 4F7 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _TBLPTRL 4F6 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _TBLPTRU 4F8 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_UART1_SetOverrunErrorHandler 27BA 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_INTERRUPT_Initialize 281E 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_UART1_SetOverrunErrorHandler 27C0 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_INTERRUPT_Initialize 2824 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PWM1_16BIT_Slice1Output2_SetInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T1CONbits 314 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Initialize 22B6 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PMD_Initialize 274A 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Initialize 2282 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PMD_Initialize 2750 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 UART1_SetOverrunErrorHandler@interruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_abs 513 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_pad 513 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -648,21 +652,21 @@ _TMR2 31C 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.producti
 _WPUA 401 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _WPUB 409 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _WPUC 411 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-_dbuf 574 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_dtoa 16C6 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_gain 56F 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_main 21C8 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+_dbuf 570 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_dtoa 16C6 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_gain 59C 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_main 2190 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _nout 563 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _prec 567 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 abs@a 513 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 FLASH_ReadWord@readWordH 508 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 FLASH_ReadWord@readWordL 507 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_FLASH_ReadWord 2660 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_FLASH_ReadWord 2666 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 pad@i 51A 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 pad@p 517 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 pad@w 51C 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-start 1A 0 CODE 0 init C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+start 1A 0 CODE 0 init C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 ___aomod@counter 511 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -671,30 +675,30 @@ __size_of_dtoa 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 __size_of_main 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 pad@fp 513 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?___tmul 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_CLC1_Initialize 2630 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_CLC1_Initialize 2636 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_FLASH_ReadWord 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_IntroSplashMessage 26E6 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_IntroSplashMessage 26EC 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _UART1_ErrorHandler 59E 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_ADCC_ISR 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_vfpfcnvrt 1BA0 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_TMR2_Initialize 272C 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_vfpfcnvrt 1BA0 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_TMR2_Initialize 2732 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_ADCC_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-intlevel0 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-intlevel1 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-intlevel2 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-intlevel3 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-__end_of_ADCC_DefaultInterruptHandler 281A 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__accesstop 560 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+intlevel0 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+intlevel1 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+intlevel2 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+intlevel3 0 0 CODE 0 text C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+__end_of_ADCC_DefaultInterruptHandler 2820 0 CODE 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PMD_Initialize 2766 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PMD_Initialize 276C 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCIN0PPS 261 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_vfpfcnvrt 19AA 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_vfpfcnvrt 19AA 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 dtoa@fp 51E 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1ERRIE 2B3 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1ERRIR 2B2 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -725,38 +729,38 @@ _ADUTHL 3DB 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.produc
 _ANSELA 400 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ANSELB 408 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ANSELC 410 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_FVR_Initialize 280A 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_CLC1_Initialize 25F8 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_FVR_Initialize 2810 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_CLC1_Initialize 25FE 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 FLASH_ReadWord@flashAddr 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PWM1_16BIT_Period_SetInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _FVRCONbits 3D7 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_INTERRUPT_InterruptManager 2500 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of___tmul 24BA 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_INTERRUPT_InterruptManager 24CC 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of___tmul 2486 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_ISR 2660 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_ISR 2666 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWMIN0PPS 257 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWMIN1PPS 258 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _FVRCON 3D7 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_printf 55A 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __LnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of___aodiv 1D28 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of___aomod 1E8C 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of___atdiv 206C 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of___aodiv 1D28 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of___aomod 1E8C 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of___atdiv 1F74 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCSELECT D5 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aodiv@quotient 513 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_ADCC_ISR 2690 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Slice1Output2_SetInterruptHandler 27CE 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_ADCC_ISR 2696 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Slice1Output2_SetInterruptHandler 27D4 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _INLVLA 404 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _INLVLB 40C 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _INLVLC 414 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___atdiv@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_strlen 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_UART1_Write 2782 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_UART1_Write 2788 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aomod@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_fputc 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_fputs 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -764,16 +768,16 @@ __size_of_putch 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _INTCON0bits 4D6 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 UART1_SetFramingErrorHandler@interruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PIN_MANAGER_Initialize 2240 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PIN_MANAGER_Initialize 220C 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aomod@divisor 509 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_FVR_Initialize 2812 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-start_initialization 270C 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_FVR_Initialize 2818 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+start_initialization 2712 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ODCONA 402 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ODCONB 40A 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ODCONC 412 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _OSCFRQ B1 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_UART1_Initialize 2390 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_UART1_Initialize 235C 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADFLTRH 3E2 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADFLTRL 3E1 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADPREVH 3E9 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -784,7 +788,7 @@ _ADSTPTL 3DF 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.produ
 _RA4PPS 205 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _RA5PPS 206 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _RB7PPS 210 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_SYSTEM_Initialize 26BE 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_SYSTEM_Initialize 26C4 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __pcstackBANK5 5A4 0 BANK5 1 cstackBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1CON0bits 2AB 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T1GATE 316 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -799,13 +803,13 @@ _U1CON1 2AC 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.produc
 _U1CON2 2AD 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1FIFO 2B0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_UART1_SetErrorHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_printf 26E6 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_printf 26EC 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_CLC1_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 fputc@fp 505 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 fputs@fp 50E 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_SW0_flag 571 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_SW0_flag 56D 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___tmul@product 507 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_ADCC_Initialize 2390 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_ADCC_Initialize 235C 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbank6 0 0 ABS 0 bank6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -813,7 +817,7 @@ __Hbank8 0 0 ABS 0 bank8 dist/default/production\pic18f16q40-cnano-demo-fw.X.pro
 __Hbank9 0 0 ABS 0 bank9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_strlen 25F8 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_strlen 25FE 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hidloc 200020 0 IDLOC 5 idloc dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -850,7 +854,7 @@ __Hbank20 0 0 ABS 0 bank20 dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 __Hbank21 0 0 ABS 0 bank21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__smallconst 1600 0 SMALLCONST 0 smallconst C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+__smallconst 1600 0 SMALLCONST 0 smallconst C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 ___atdiv@counter 507 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -881,9 +885,10 @@ __Ltext7 0 0 ABS 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.pro
 __Ltext8 0 0 ABS 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Ltext9 0 0 ABS 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_TempIndicator_Calc 1F84 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_TempIndicator_Calc 20FA 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_TempIndicator_Init 258A 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PWM1_16BIT_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_INTERRUPT_Initialize 281A 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_INTERRUPT_Initialize 2820 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___tmul@multiplicand 504 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -899,33 +904,33 @@ __Lrbit 0 0 COMRAM 1 rbit dist/default/production\pic18f16q40-cnano-demo-fw.X.pr
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__pnvBANK5 594 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__pnvBANK5 590 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_IntroSplashMessage 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aodiv@counter 511 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___tmul 2462 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+___tmul 242E 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aomod@sign 512 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_GetConversionResult 279A 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Period_InterruptHandler 598 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_GetConversionResult 27A0 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Period_InterruptHandler 594 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_CLC1_ISR 2800 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_CLC1_ISR 2806 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PR2 31D 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__S0 281E 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__S0 2824 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __S1 5AB 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_abs 2544 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_pad 206C 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_abs 2510 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_pad 1F74 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_ADCC_SetADIInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_FLASH_ReadWord 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 IVTBASEH 45E 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 IVTBASEL 45D 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 IVTBASEU 45F 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_uart1RxLastError 573 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_uart1RxLastError 56F 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCnGLS0 DC 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCnGLS1 DD 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCnGLS2 DE 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -934,27 +939,28 @@ _CLCnSEL0 D8 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.produ
 _CLCnSEL1 D9 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCnSEL2 DA 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _CLCnSEL3 DB 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_UART1_Initialize 23FA 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_CLC1_ISR 280A 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_UART1_Initialize 23C6 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_CLC1_ISR 2810 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T2RSTbits 321 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_Initialize 2324 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_Initialize 22F0 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __pivt0x8 8 0 CODE 0 ivt0x8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_UART1_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___aodiv@sign 512 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_SYSTEM_Initialize 2690 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_dtoa$2363 530 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_TempIndicator_Calc 1E8C 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_abs 2584 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_pad 2132 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_ADCC_SetADIInterruptHandler 27F6 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_SYSTEM_Initialize 2696 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_dtoa$2368 530 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_TempIndicator_Calc 203A 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_TempIndicator_Init 2550 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_abs 2550 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_pad 203A 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_ADCC_SetADIInterruptHandler 27FC 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __HnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hramtop 1600 0 RAM 0 ramtop dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 strlen@a 503 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 strlen@s 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_ADI_InterruptHandler 596 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_ADI_InterruptHandler 592 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __activetblptr 3 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of___tmul 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -993,53 +999,55 @@ __Htext40 0 0 ABS 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 __Htext41 0 0 ABS 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Htext42 0 0 ABS 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Htext43 0 0 ABS 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfpfcnvrt@fmt 544 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_INTERRUPT_InterruptManager 24BA 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_INTERRUPT_InterruptManager 2486 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PIE0bits 4A8 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PIE1bits 4A9 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PIE4bits 4AC 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 pad@buf 515 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PWM1_16BIT_Period_SetInterruptHandler 27EC 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext10 27C4 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext11 272C 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext12 2584 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext13 22B6 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext14 27CE 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext15 27D8 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext16 27E2 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext17 274A 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext18 2240 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext19 2766 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext20 281A 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext21 280A 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext22 25F8 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext23 2324 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext24 27EC 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext25 26E6 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext26 26BE 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext27 23FA 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext28 19AA 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext29 16C6 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext30 206C 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext31 25BE 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext32 2500 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext33 2132 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext34 27F6 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext35 2782 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext36 2544 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext37 1D28 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext38 1BA0 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext39 24BA 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext40 2800 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext41 2660 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext42 2812 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext43 0 0 CODE 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PWM1_16BIT_Slice1Output1_SetInterruptHandler 27E2 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PIN_MANAGER_Initialize 22B6 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___aodiv 1BA0 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___aomod 1D28 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-___atdiv 1F84 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PWM1_16BIT_Period_SetInterruptHandler 27F2 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext10 27C0 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext11 27CA 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext12 2732 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext13 258A 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext14 2282 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext15 27D4 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext16 27DE 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext17 27E8 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext18 2750 0 CODE 0 text18 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext19 220C 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext20 276C 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext21 2820 0 CODE 0 text21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext22 2810 0 CODE 0 text22 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext23 25FE 0 CODE 0 text23 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext24 22F0 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext25 27F2 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext26 26EC 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext27 26C4 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext28 23C6 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext29 19AA 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext30 16C6 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext31 1F74 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext32 25C4 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext33 24CC 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext34 20FA 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext35 27FC 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext36 2788 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext37 2510 0 CODE 0 text37 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext38 1D28 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext39 1BA0 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext40 2486 0 CODE 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext41 2806 0 CODE 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext42 2666 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext43 2818 0 CODE 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext44 0 0 CODE 0 text44 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PWM1_16BIT_Slice1Output1_SetInterruptHandler 27E8 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PIN_MANAGER_Initialize 2282 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+___aodiv 1BA0 0 CODE 0 text39 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+___aomod 1D28 0 CODE 0 text38 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+___atdiv 1E8C 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1052,7 +1060,7 @@ __Lbank18 0 0 ABS 0 bank18 dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 __Lbank19 0 0 ABS 0 bank19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbank20 0 0 ABS 0 bank20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbank21 0 0 ABS 0 bank21 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_offset 56D 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_offset 59A 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ?_ADCC_GetConversionResult 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1060,16 +1068,16 @@ UART1_SetErrorHandler@interruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/
 ?_dtoa 51E 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_printf 26BE 0 CODE 0 text26 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_printf 26C4 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _LATCbits 4C0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_strlen 25BE 0 CODE 0 text31 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_strlen 25C4 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___atdiv@divisor 504 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_UART1_Write 279A 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-stackhi 14FF 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-stacklo 5AB 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s4lb0.o
+__end_of_UART1_Write 27A0 0 CODE 0 text36 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+stackhi 14FF 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+stacklo 5AB 0 ABS 0 - C:\Users\C16783\AppData\Local\Temp\s3ei8.o
 _OSCCON1 AD 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _OSCCON3 AF 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _OSCTUNE B0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1096,11 +1104,11 @@ ___aodiv@divisor 509 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40
 ___aodiv@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PWM1_16BIT_Slice1Output1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_UART1_SetFramingErrorHandler 27BA 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_UART1_SetFramingErrorHandler 27C0 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 printf@ap 5A6 0 BANK5 1 cstackBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_UART1_SetOverrunErrorHandler 27B0 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_UART1_SetOverrunErrorHandler 27B6 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___tmul@multiplier 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-end_of_initialization 2726 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+end_of_initialization 272C 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_printf 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 fputc@c 503 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1113,28 +1121,28 @@ fputs@s 50C 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-de
 __size_of_FVR_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfprintf@fmt 554 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Period_SetInterruptHandler 27E2 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Period_SetInterruptHandler 27E8 0 CODE 0 text17 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _UART1_FramingErrorHandler 5A2 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _UART1_OverrunErrorHandler 5A0 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lramtop 1600 0 RAM 0 ramtop dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_strlen 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__pcinit 270C 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__pcinit 2712 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfpfcnvrt@ap 546 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfpfcnvrt@fp 542 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfpfcnvrt@ll 54A 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext0 21C8 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext1 1E8C 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext2 2462 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext3 1F84 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext4 2630 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext5 279A 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext6 2690 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext7 2390 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext8 27B0 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ptext9 27BA 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext0 2190 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext1 2550 0 CODE 0 text1 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext2 2636 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext3 203A 0 CODE 0 text3 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext4 242E 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext5 1E8C 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext6 27A0 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext7 2696 0 CODE 0 text7 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext8 235C 0 CODE 0 text8 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ptext9 27B6 0 CODE 0 text9 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfprintf@ap 556 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 vfprintf@fp 552 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1173,26 +1181,27 @@ __Ltext40 0 0 ABS 0 text40 dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 __Ltext41 0 0 ABS 0 text41 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Ltext42 0 0 ABS 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Ltext43 0 0 ABS 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__ramtop 1600 0 RAM 0 ramtop C:\Users\C16783\AppData\Local\Temp\s4lb0.o
-_vfprintf 23FA 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__ramtop 1600 0 RAM 0 ramtop C:\Users\C16783\AppData\Local\Temp\s3ei8.o
+_vfprintf 23C6 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___atdiv@sign 508 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _UART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_TMR1_Initialize 25BE 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_TMR1_Initialize 25C4 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __psmallconst 1600 0 SMALLCONST 0 smallconst dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___atdiv@quotient 509 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_vfprintf 2462 0 CODE 0 text27 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_vfprintf 242E 0 CODE 0 text28 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _SLRCONA 403 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _SLRCONB 40B 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _SLRCONC 413 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_DefaultInterruptHandler 2812 0 CODE 0 text42 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_adcc_flag 572 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_DefaultInterruptHandler 2818 0 CODE 0 text43 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_adcc_flag 56E 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _adcc_meas 56B 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of__initialization 2726 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of__initialization 272C 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADSTATbits 3F7 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1203,17 +1212,18 @@ _PWM1GIEbits 468 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.p
 _UART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1GIRbits 467 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_timer1ReloadVal 594 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_timer1ReloadVal 590 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1CPRE 465 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_ADCC_GetConversionResult 27B0 0 CODE 0 text5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_ADCC_GetConversionResult 27B6 0 CODE 0 text6 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T2INPPS 248 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_TempIndicator_Calc 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__size_of_TempIndicator_Init 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 putch@txData 502 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_dtoa 19AA 0 CODE 0 text29 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_main 2240 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_dtoa 19AA 0 CODE 0 text30 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_main 220C 0 CODE 0 text0 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _bufferRAM 1500 0 ABS 1 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_UART1_SetErrorHandler 27CE 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_UART1_SetErrorHandler 27D4 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _PWM1_16BIT_Period_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 printf@fmt 55A 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADACT 3F9 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1223,8 +1233,8 @@ _ADCNT 3E6 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.product
 _ADPCH 3EC 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADREF 3F8 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _ADRPT 3E7 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_fputc 21C8 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_fputs 2544 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_fputc 2190 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_fputs 2510 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _OSCEN B3 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T1CLK 317 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T1CON 314 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1246,7 +1256,7 @@ _U1P3L 2A9 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.product
 _U1RXB 2A1 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1TXB 2A3 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1UIR 2B1 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_putch 2800 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_putch 2806 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hbss 0 0 RAM 1 bss dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hram 0 0 ABS 0 ram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1256,25 +1266,25 @@ __Lbss 0 0 RAM 1 bss dist/default/production\pic18f16q40-cnano-demo-fw.X.product
 __Lram 0 0 ABS 0 ram dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 ADCC_SetADIInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_TMR1_Initialize 2584 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_TMR1_Initialize 258A 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _flags 569 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_fputc 2132 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_fputs 2500 0 CODE 0 text32 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PWM1_16BIT_Slice1Output2_SetInterruptHandler 27D8 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_putch 27F6 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_fputc 20FA 0 CODE 0 text34 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_fputs 24CC 0 CODE 0 text33 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PWM1_16BIT_Slice1Output2_SetInterruptHandler 27DE 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_putch 27FC 0 CODE 0 text35 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _tempC 560 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _width 565 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Slice1Output2_InterruptHandler 59A 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Slice1Output2_InterruptHandler 596 0 BANK5 1 nvBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_abs 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_pad 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_FLASH_ReadWord 2630 0 CODE 0 text4 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_FLASH_ReadWord 2636 0 CODE 0 text2 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_UART1_Write 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_OSCILLATOR_Initialize 2782 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_PWM1_16BIT_Slice1Output1_SetInterruptHandler 27D8 0 CODE 0 text15 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__initialization 270C 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_OSCILLATOR_Initialize 2788 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_PWM1_16BIT_Slice1Output1_SetInterruptHandler 27DE 0 CODE 0 text16 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__initialization 2712 0 CODE 0 cinit dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __pbssBANK5 560 0 BANK5 1 bssBANK5 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_UART1_SetErrorHandler 27C4 0 CODE 0 text10 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_UART1_SetErrorHandler 27CA 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _T2CONbits 31E 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hsmallconst 16C6 0 SMALLCONST 0 smallconst dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
@@ -1287,12 +1297,12 @@ dtoa@w 534 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-dem
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 _U1ERRIRbits 2B2 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_PWM1_16BIT_Initialize 2324 0 CODE 0 text13 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_PWM1_16BIT_Initialize 22F0 0 CODE 0 text14 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 __size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_ADCC_SetADIInterruptHandler 27EC 0 CODE 0 text24 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-_OSCILLATOR_Initialize 2766 0 CODE 0 text19 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_ADCC_SetADIInterruptHandler 27F2 0 CODE 0 text25 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+_OSCILLATOR_Initialize 276C 0 CODE 0 text20 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 UART1_Write@txData 501 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
-__end_of_TMR2_Initialize 274A 0 CODE 0 text11 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
+__end_of_TMR2_Initialize 2750 0 CODE 0 text12 dist/default/production\pic18f16q40-cnano-demo-fw.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1319,7 +1329,7 @@ _bufferRAM 1 1500 2
 # All other numeric quantities are in decimal.
 %SEGMENTS
 ivt0x8 0 8 8 16 1
-text29 0 16C6 16C6 1158 1
+text30 0 16C6 16C6 115E 1
 cstackCOMRAM 1 501 501 5F 1
 reset_vec 0 0 0 4 1
 bssBANK5 1 560 560 4B 1
