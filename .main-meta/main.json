@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f16q40-cnano-demo-fw",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "PIC18F16Q40 Curiosity Nano Demo Firmware",
         "projectName": "pic18f16q40-cnano-demo-fw",
         "shortDescription": "This code example gives an out of box demonstration of the main periphreals found on the Q40 family of devices.",
