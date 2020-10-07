@@ -3,58 +3,83 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": "",
-        "displayName": "",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f16q40-cnano-demo-fw",
+        "version": "1.0.0",
+        "displayName": "PIC18F16Q40 Curiosity Nano Demo Firmware",
+        "projectName": "pic18f16q40-cnano-demo-fw",
+        "shortDescription": "This code example gives an out of box demonstration of the main periphreals found on the Q40 family of devices.",
         "ide": {
-            "name": "",
-            "semverRange": ""
-        },
-        "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
-        "dfp": {
-            "name": "",
-            "semverRange": ""
-        },
-        "configurator": {
-            "name": "",
-            "semverRange": ""
-        },
-        "device": {
-            "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.contentRef",
-            "content": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.device",
-                "name": "",
-                "versionRange": "*"
-            }
-        },
-        "author": "",
-        "subcategories": [
-            "",
-            [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
-        ],
-        "peripherals": [
-            "",""
-        ],
+                  "name": "MPLABX",
+                  "semverRange": ">=5.40.0"
+              },
+              "compiler": [
+      			{
+      				"name": "XC8",
+      				"semverRange": "^2.20.0"
+      			}
+      		],
+              "dfp": {
+                  "name": "PIC18F-Q_DFP",
+                  "semverRange": "^1.5.124"
+              },
+              "configurator": {
+                  "name": "MCC",
+                  "semverRange": ">=3.95.0"
+              },
+              "device": {
+                  "metaDataVersion": "1.0.0",
+                  "category": "com.microchip.portal.contentRef",
+                  "content": {
+                      "metaDataVersion": "1.0.0",
+                      "category": "com.microchip.device",
+                      "name": "PIC18F16Q40",
+                      "versionRange": "*"
+                  }
+              },
+              "author": "Microchip",
+              "subcategories": [
+                  "MCC",
+                  [
+                     "Peripherals", "PWM"
+                  ],
+                  [
+                     "Peripherals", "UART"
+                  ],
+				  
+                  [
+                     "Peripherals", "ADCC"
+                  ],				  
+                  [
+                     "Peripherals", "FVR"
+                  ],
+                  [
+                     "Peripherals", "MEMORY"
+                  ],				  
+                  [
+                     "Peripherals", "TMR1"
+                  ],
+                  [
+                     "Peripherals", "TMR2"
+                  ],
+                  [
+                     "Peripherals", "CLC"
+                  ]				  
+              ],
+              "peripherals": [
+                  "PWM","ADCC","UART","FVR","MEMORY","TMR1","TMR2","CLC"
+              ],
         "keywords": [
-            "",
-            ""			
+            "MCC",
+            "Intelligent Analog",
+            "Core Independent",
+			"Configurable Logic Cell",
+			"Lighting",
+			"Getting Started",
+			"Temperature"
         ],
 		"additionalData": {
 			"longDescription": {
+			
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.portal.fileRef",
 				"content": {
