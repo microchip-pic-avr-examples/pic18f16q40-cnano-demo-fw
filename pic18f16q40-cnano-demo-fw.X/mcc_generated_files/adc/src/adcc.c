@@ -89,7 +89,7 @@ void ADCC_Initialize(void)
     ADSTPTH = 0x0;
     //ADACCU 0x0; 
     ADACCU = 0x0;
-    //ADRPT 0x0; 
+    //ADRPT 0; 
     ADRPT = 0x0;
     //ADCHS ANA0; 
     ADPCH = 0x0;
@@ -115,8 +115,8 @@ void ADCC_Initialize(void)
     ADREF = 0x3;
     //ADACT TMR1; 
     ADACT = 0x3;
-    //ADCCS FOSC/2; 
-    ADCLK = 0x0;
+    //ADCCS FOSC/8; 
+    ADCLK = 0x3;
     //GO_nDONE undefined; ADFM right; ADON enabled; ADCS ADCRC; ADCONT disabled; 
     ADCON0 = 0x94;
     
@@ -339,6 +339,7 @@ static void ADCC_DefaultADI_ISR(void)
 {
     //Add your interrupt code here or
     //Use ADCC_SetADIInterruptHandler() function to use Custom ISR
+    adcc_flag = 1;
 }
 
 void ADCC_ThresholdISR(void)

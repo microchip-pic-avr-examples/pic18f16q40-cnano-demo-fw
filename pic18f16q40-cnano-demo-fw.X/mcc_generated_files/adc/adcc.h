@@ -65,6 +65,8 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #include <stdint.h>
 #include <stdbool.h>
 
+uint8_t adcc_flag = 0;
+    
 /**
  @ingroup adc_with_computation
  @typedef adc_result_t

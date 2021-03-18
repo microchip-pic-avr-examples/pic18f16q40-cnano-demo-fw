@@ -289,7 +289,7 @@ uint8_t DATAEE_ReadByte(uint16_t bAdd)
     return NVMDATL;
 }
 
-void MEMORY_ISR(void)
+void FLASH_ISR(void)
 {
     /* TODO : Add interrupt handling code */
     PIR0bits.NVMIF = 0;

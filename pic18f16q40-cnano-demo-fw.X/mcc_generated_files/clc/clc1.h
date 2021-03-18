@@ -64,6 +64,8 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #include <stdint.h>
 #include <stdbool.h>
 
+    uint8_t SW0_flag = 0;
+
 /**
   Section: CLC1 APIs
 */

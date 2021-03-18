@@ -56,8 +56,8 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 // Configuration bits: selected in the GUI
 
 //CONFIG1
-#pragma config FEXTOSC = ECH     // External Oscillator Mode Selection->EC (external clock) above 8 MHz
-#pragma config RSTOSC = EXTOSC     // Power-up Default Value for COSC->EXTOSC operating per FEXTOSC bits (device manufacturing default)
+#pragma config FEXTOSC = OFF     // External Oscillator Mode Selection->Oscillator not enabled
+#pragma config RSTOSC = HFINTOSC_64MHZ     // Power-up Default Value for COSC->HFINTOSC with HFFRQ = 64 MHz and CDIV = 1:1
 
 //CONFIG2
 #pragma config FCMENP = ON     // Fail-Safe Clock Monitor Enable - Primary XTAL Enable->Fail-Safe Clock Monitor enabled; timer will flag FSCMP bit and OSFIF interrupt on EXTOSC failure.
@@ -68,7 +68,7 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 #pragma config PR1WAY = ON     // PRLOCKED One-Way Set Enable->PRLOCKED bit can be cleared and set only once
 
 //CONFIG3
-#pragma config MVECEN = ON     // Multivector Enable->Multi-vector enabled, Vector table used for interrupts
+#pragma config MVECEN = OFF     // Multivector Enable->Interrupt contoller does not use vector table to prioritze interrupts
 #pragma config MCLRE = EXTMCLR     // Master Clear (MCLR) Enable->If LVP = 0, MCLR pin is MCLR; If LVP = 1, RE3 pin function is MCLR 
 #pragma config BOREN = SBORDIS     // Brown-out Reset Enable->Brown-out Reset enabled , SBOREN bit is ignored
 #pragma config PWRTS = PWRT_OFF     // Power-up Timer Selection->PWRT is disabled
@@ -85,7 +85,7 @@ Copyright (c) [2012-2020] Microchip Technology Inc.
 
 //CONFIG5
 #pragma config WDTCPS = WDTCPS_31     // WDT Period Select->Divider ratio 1:65536; software control of WDTPS
-#pragma config WDTE = ON     // WDT Operating Mode->WDT enabled regardless of sleep; SWDTEN is ignored
+#pragma config WDTE = OFF     // WDT Operating Mode->WDT Disabled; SWDTEN is ignored
 
 //CONFIG6
 #pragma config WDTCWS = WDTCWS_7     // WDT Window Select->window always open (100%); software control; keyed access not required

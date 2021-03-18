@@ -235,4 +235,11 @@ void DATAEE_WriteByte(uint16_t bAdd, uint8_t bData);
  */
 uint8_t DATAEE_ReadByte(uint16_t bAdd);
 
+/**
+ * @brief This routine is used to implement the ISR for the interrupt-driven implementations.
+ * @return None
+ * @param None
+ */
+void FLASH_ISR(void);
+
 #endif /* MEMORY_H_INCLUDED */

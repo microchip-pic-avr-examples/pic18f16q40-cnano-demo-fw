@@ -15,8 +15,8 @@
     Generation Information :
         Driver Version    :  3.0.0
     The generated drivers are tested against the following:
-        Compiler          :  XC8 v2.30 and above
-        MPLAB             :  MPLAB X v5.45 and above
+        Compiler          :  XC8 v2.31
+        MPLAB             :  MPLAB X v5.45
 */
 
 /*
@@ -95,8 +95,8 @@ void Timer2_Initialize(void){
 
     // Clearing IF flag.
      PIR3bits.TMR2IF = 0;
-    // TCKPS 1:16; TMRON off; TOUTPS 1:1; 
-    T2CON = 0x40;
+    // TCKPS 1:16; TMRON on; TOUTPS 1:1; 
+    T2CON = 0xC0;
 }
 
 void Timer2_ModeSet(Timer2_HLT_MODE mode)

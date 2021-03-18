@@ -70,8 +70,6 @@ void CLC1_Initialize(void)
     
     // SLCT 0x0; 
     CLCSELECT = 0x0;
-    // LCMODE JK flip-flop with R; LCINTN enabled; LCINTP enabled; LCEN enabled; 
-    CLCnCON = 0x9E;
     // LCG1POL not_inverted; LCG2POL inverted; LCG3POL not_inverted; LCG4POL inverted; LCPOL not_inverted; 
     CLCnPOL = 0xA;
     // LCD1S TMR2; 
@@ -82,8 +80,8 @@ void CLC1_Initialize(void)
     CLCnSEL2 = 0x0;
     // LCD4S CLCIN0 (CLCIN0PPS); 
     CLCnSEL3 = 0x0;
-    // LCG1D1N enabled; LCG1D1T disabled; LCG1D2N disabled; LCG1D2T disabled; LCG1D3N disabled; LCG1D3T disabled; LCG1D4N disabled; LCG1D4T disabled; 
-    CLCnGLS0 = 0x1;
+    // LCG1D1N disabled; LCG1D1T enabled; LCG1D2N disabled; LCG1D2T disabled; LCG1D3N disabled; LCG1D3T disabled; LCG1D4N disabled; LCG1D4T disabled; 
+    CLCnGLS0 = 0x2;
     // LCG2D1N disabled; LCG2D1T disabled; LCG2D2N disabled; LCG2D2T disabled; LCG2D3N disabled; LCG2D3T disabled; LCG2D4N disabled; LCG2D4T disabled; 
     CLCnGLS1 = 0x0;
     // LCG3D1N disabled; LCG3D1T disabled; LCG3D2N disabled; LCG3D2T disabled; LCG3D3N disabled; LCG3D3T disabled; LCG3D4N disabled; LCG3D4T disabled; 
@@ -92,6 +90,8 @@ void CLC1_Initialize(void)
     CLCnGLS3 = 0x0;
     // LCOUT 0x00; 
     CLCDATA = 0x0;
+    // LCMODE JK flip-flop with R; LCINTN enabled; LCINTP enabled; LCEN enabled; 
+    CLCnCON = 0x9E;
 
     // Clear the CLC interrupt flag
     PIR0bits.CLC1IF = 0;
@@ -103,6 +103,7 @@ void CLC1_ISR(void)
 {
     // Clear the CLC interrupt flag
     PIR0bits.CLC1IF = 0;
+        SW0_flag = 1;
 }
 
 bool CLC1_OutputStatusGet(void)
