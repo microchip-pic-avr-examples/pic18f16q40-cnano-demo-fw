@@ -1,0 +1,1625 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F16Q40 ]
+[d frameptr 1249 ]
+"106 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[e E13011 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+channel_ANA0 0
+]
+"82 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[e E13026 . `uc
+TMR2_ROP_STARTS_TMRON 0
+TMR2_ROP_STARTS_TMRON_ERSHIGH 1
+TMR2_ROP_STARTS_TMRON_ERSLOW 2
+TMR2_ROP_RESETS_ERSBOTHEDGE 3
+TMR2_ROP_RESETS_ERSRISINGEDGE 4
+TMR2_ROP_RESETS_ERSFALLINGEDGE 5
+TMR2_ROP_RESETS_ERSLOW 6
+TMR2_ROP_RESETS_ERSHIGH 7
+TMR2_OS_STARTS_TMRON 8
+TMR2_OS_STARTS_ERSRISINGEDGE 9
+TMR2_OS_STARTS_ERSFALLINGEDGE 10
+TMR2_OS_STARTS_ERSBOTHEDGE 11
+TMR2_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR2_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR2_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR2_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR2_OS_STARTS_TMRON_ERSHIGH 22
+TMR2_OS_STARTS_TMRON_ERSLOW 23
+TMR2_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR2_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR2_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"88
+[e E13049 . `uc
+TMR2_T2INPPS_PIN 0
+TMR2_TMR4_POSTSCALED 2
+TMR2_CCP1OUT 4
+TMR2_PWM1_OUT1 5
+TMR2_PWM1_OUT2 6
+TMR2_PWM2_OUT1 7
+TMR2_PWM2_OUT2 8
+TMR2_PWM3_OUT1 9
+TMR2_PWM3_OUT2 10
+TMR2_CMP1_OUT 11
+TMR2_CMP2_OUT 12
+TMR2_ZCD_OUT 13
+TMR2_CLC1_OUT 14
+TMR2_CLC2_OUT 15
+TMR2_CLC3_OUT 16
+TMR2_CLC4_OUT 17
+TMR2_UART1_RX_EDGE 18
+TMR2_UART1_TX_EDGE 19
+TMR2_UART2_RX_EDGE 20
+TMR2_UART2_TX_EDGE 21
+TMR2_UART3_RX_EDGE 22
+TMR2_UART3_TX_EDGE 23
+]
+"53 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\main.c
+[e E13014 . `uc
+channel_DAC2 58
+channel_VSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_Buffer1 62
+channel_FVR_Buffer2 63
+channel_ANA0 0
+]
+"53 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/nvm/src/nvm.c
+[e E13012 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"13 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\application.c
+[v _IntroSplashMessage IntroSplashMessage `(v  1 e 1 0 ]
+"19
+[v _TempIndicator_Init TempIndicator_Init `(v  1 e 1 0 ]
+"26
+[v _TempIndicator_Calc TempIndicator_Calc `(v  1 e 1 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"152 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1546
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"39 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"47 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"121
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+"286
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+"297
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+"302
+[v _ADCC_DefaultADI_ISR ADCC_DefaultADI_ISR `(v  1 s 1 ADCC_DefaultADI_ISR ]
+"40 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc/src/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+"76
+[v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
+"87
+[v _CLC1_CLCI_SetInterruptHandler CLC1_CLCI_SetInterruptHandler `(v  1 e 1 0 ]
+"92
+[v _CLC1_DefaultCLCI_ISR CLC1_DefaultCLCI_ISR `(v  1 s 1 CLC1_DefaultCLCI_ISR ]
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr/src/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+"82
+[v _FLASH_Read FLASH_Read `(uc  1 e 1 0 ]
+"50 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+[v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
+"179
+[v _PWM1_16BIT_Slice1Output1_SetInterruptHandler PWM1_16BIT_Slice1Output1_SetInterruptHandler `(v  1 e 1 0 ]
+"184
+[v _PWM1_16BIT_Slice1Output2_SetInterruptHandler PWM1_16BIT_Slice1Output2_SetInterruptHandler `(v  1 e 1 0 ]
+"189
+[v _PWM1_16BIT_Period_SetInterruptHandler PWM1_16BIT_Period_SetInterruptHandler `(v  1 e 1 0 ]
+"194
+[v _PWM1_16BIT_Slice1Output1_DefaultInterruptHandler PWM1_16BIT_Slice1Output1_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Slice1Output1_DefaultInterruptHandler ]
+"200
+[v _PWM1_16BIT_Slice1Output2_DefaultInterruptHandler PWM1_16BIT_Slice1Output2_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Slice1Output2_DefaultInterruptHandler ]
+"206
+[v _PWM1_16BIT_Period_DefaultInterruptHandler PWM1_16BIT_Period_DefaultInterruptHandler `(v  1 s 1 PWM1_16BIT_Period_DefaultInterruptHandler ]
+"37 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"114
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"123
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"127
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"140
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"149
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"153
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"166
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"175
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"179
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"120
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"37 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"89
+[v _TMR1_Start TMR1_Start `(v  1 e 1 0 ]
+"95
+[v _TMR1_Stop TMR1_Stop `(v  1 e 1 0 ]
+"115
+[v _TMR1_Write TMR1_Write `(v  1 e 1 0 ]
+"158
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+"163
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+"184
+[v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
+"189
+[v _TMR1_DefaultGateCallback TMR1_DefaultGateCallback `(v  1 s 1 TMR1_DefaultGateCallback ]
+"195
+[v _TMR1_Tasks TMR1_Tasks `(v  1 e 1 0 ]
+"57 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"94
+[v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
+"100
+[v _TMR2_Stop TMR2_Stop `(v  1 e 1 0 ]
+"119
+[v _TMR2_PeriodCountSet TMR2_PeriodCountSet `(v  1 e 1 0 ]
+"124
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"135
+[v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
+"139
+[v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
+"95 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"146
+[v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
+"179
+[v _UART1_TransmitEnable UART1_TransmitEnable `T(v  1 e 1 0 ]
+"184
+[v _UART1_TransmitDisable UART1_TransmitDisable `T(v  1 e 1 0 ]
+"209
+[v _UART1_AutoBaudSet UART1_AutoBaudSet `T(v  1 e 1 0 ]
+"222
+[v _UART1_AutoBaudQuery UART1_AutoBaudQuery `T(a  1 e 1 0 ]
+"242
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+"247
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+"252
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+"257
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"281
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"287
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"297
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"302
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"307
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"312
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"320
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"328
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"15 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X/application.h
+[v _gain gain `s  1 e 2 0 ]
+[v _offset offset `s  1 e 2 0 ]
+"16
+[v _adcc_meas adcc_meas `us  1 e 2 0 ]
+"17
+[v _tempC tempC `m  1 e 3 0 ]
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/adc/adcc.h
+[v _adcc_flag adcc_flag `uc  1 e 1 0 ]
+"40 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X/mcc_generated_files/clc/clc1.h
+[v _SW0_flag SW0_flag `uc  1 e 1 0 ]
+[s S2465 . 1 `uc 1 GO 1 0 :1:0 
+]
+"462 C:/Users/c50931/.mchp_packs/Microchip/PIC18F-Q_DFP/1.18.389/xc8\pic\include\proc\pic18f16q40.h
+[s S2467 . 1 `uc 1 NOT_DONE 1 0 :1:0 
+]
+[s S2469 . 1 `uc 1 nDONE 1 0 :1:0 
+]
+[s S2471 . 1 `uc 1 NVMGO 1 0 :1:0 
+]
+[u S2473 . 1 `S2465 1 . 1 0 `S2467 1 . 1 0 `S2469 1 . 1 0 `S2471 1 . 1 0 ]
+[v _NVMCON0bits NVMCON0bits `VES2473  1 e 1 @64 ]
+[s S2490 . 1 `uc 1 CMD 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 WRERR 1 0 :1:7 
+]
+"502
+[s S2494 . 1 `uc 1 NVMCMD 1 0 :3:0 
+]
+[u S2496 . 1 `S2490 1 . 1 0 `S2494 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES2496  1 e 1 @65 ]
+"522
+[v _NVMLOCK NVMLOCK `VEuc  1 e 1 @66 ]
+"551
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @67 ]
+"621
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @68 ]
+"691
+[v _NVMADRU NVMADRU `VEuc  1 e 1 @69 ]
+"756
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @70 ]
+"826
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @71 ]
+"5055
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5125
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5265
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5305
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5363
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5565
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"6118
+[v _CLCDATA CLCDATA `VEuc  1 e 1 @212 ]
+[s S591 . 1 `uc 1 CLC1OUT 1 0 :1:0 
+`uc 1 CLC2OUT 1 0 :1:1 
+`uc 1 CLC3OUT 1 0 :1:2 
+`uc 1 CLC4OUT 1 0 :1:3 
+]
+"6131
+[u S596 . 1 `S591 1 . 1 0 ]
+[v _CLCDATAbits CLCDATAbits `VES596  1 e 1 @212 ]
+"6156
+[v _CLCSELECT CLCSELECT `VEuc  1 e 1 @213 ]
+"6190
+[v _CLCnCON CLCnCON `VEuc  1 e 1 @214 ]
+"6255
+[v _CLCnPOL CLCnPOL `VEuc  1 e 1 @215 ]
+"6300
+[v _CLCnSEL0 CLCnSEL0 `VEuc  1 e 1 @216 ]
+"6364
+[v _CLCnSEL1 CLCnSEL1 `VEuc  1 e 1 @217 ]
+"6428
+[v _CLCnSEL2 CLCnSEL2 `VEuc  1 e 1 @218 ]
+"6492
+[v _CLCnSEL3 CLCnSEL3 `VEuc  1 e 1 @219 ]
+"6556
+[v _CLCnGLS0 CLCnGLS0 `VEuc  1 e 1 @220 ]
+"6618
+[v _CLCnGLS1 CLCnGLS1 `VEuc  1 e 1 @221 ]
+"6680
+[v _CLCnGLS2 CLCnGLS2 `VEuc  1 e 1 @222 ]
+"6742
+[v _CLCnGLS3 CLCnGLS3 `VEuc  1 e 1 @223 ]
+"8496
+[v _RA4PPS RA4PPS `VEuc  1 e 1 @517 ]
+"8546
+[v _RA5PPS RA5PPS `VEuc  1 e 1 @518 ]
+"8746
+[v _RB7PPS RB7PPS `VEuc  1 e 1 @528 ]
+"9772
+[v _T2INPPS T2INPPS `VEuc  1 e 1 @584 ]
+"11152
+[v _CLCIN0PPS CLCIN0PPS `VEuc  1 e 1 @609 ]
+"12088
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"12520
+[v _RB6I2C RB6I2C `VEuc  1 e 1 @646 ]
+"12652
+[v _RB4I2C RB4I2C `VEuc  1 e 1 @647 ]
+"13994
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"14032
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @674 ]
+"14052
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"14090
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @676 ]
+"14117
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"14137
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"14164
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"14184
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"14211
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"14231
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"14251
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S2051 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"14284
+[s S2056 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S2062 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S2067 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S2073 . 1 `S2051 1 . 1 0 `S2056 1 . 1 0 `S2062 1 . 1 0 `S2067 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES2073  1 e 1 @683 ]
+"14379
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S2015 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"14404
+[s S2023 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S2031 . 1 `S2015 1 . 1 0 `S2023 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES2031  1 e 1 @684 ]
+"14459
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"14608
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"14628
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"14648
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+[s S2169 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"14683
+[s S2178 . 1 `uc 1 U1RXBF 1 0 :1:0 
+`uc 1 U1RXBE 1 0 :1:1 
+`uc 1 U1XON 1 0 :1:2 
+`uc 1 U1RXIDL 1 0 :1:3 
+`uc 1 U1TXBF 1 0 :1:4 
+`uc 1 U1TXBE 1 0 :1:5 
+`uc 1 U1STPMD 1 0 :1:6 
+`uc 1 U1TXWRE 1 0 :1:7 
+]
+[s S2187 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U1RCIDL 1 0 :1:3 
+]
+[s S2190 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+[u S2193 . 1 `S2169 1 . 1 0 `S2178 1 . 1 0 `S2187 1 . 1 0 `S2190 1 . 1 0 ]
+[v _U1FIFObits U1FIFObits `VES2193  1 e 1 @688 ]
+"14778
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+[s S2101 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"14799
+[s S2107 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+[u S2113 . 1 `S2101 1 . 1 0 `S2107 1 . 1 0 ]
+[v _U1UIRbits U1UIRbits `VES2113  1 e 1 @689 ]
+"14834
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S2129 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"14861
+[s S2138 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+[u S2147 . 1 `S2129 1 . 1 0 `S2138 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES2147  1 e 1 @690 ]
+"14946
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"18337
+[v _TMR1L TMR1L `VEuc  1 e 1 @786 ]
+"18407
+[v _TMR1H TMR1H `VEuc  1 e 1 @787 ]
+"18477
+[v _T1CON T1CON `VEuc  1 e 1 @788 ]
+[s S1325 . 1 `uc 1 ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 NOT_SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CKPS 1 0 :2:4 
+]
+"18513
+[s S1331 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 T1RD16 1 0 :1:1 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S1338 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+]
+[s S1342 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RD161 1 0 :1:1 
+]
+[u S1345 . 1 `S1325 1 . 1 0 `S1331 1 . 1 0 `S1338 1 . 1 0 `S1342 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES1345  1 e 1 @788 ]
+"18667
+[v _T1GCON T1GCON `VEuc  1 e 1 @789 ]
+[s S1371 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GVAL 1 0 :1:2 
+`uc 1 GGO 1 0 :1:3 
+`uc 1 GSPM 1 0 :1:4 
+`uc 1 GTM 1 0 :1:5 
+`uc 1 GPOL 1 0 :1:6 
+`uc 1 GE 1 0 :1:7 
+]
+"18705
+[s S1379 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 T1GE 1 0 :1:7 
+]
+[s S1387 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_DONE 1 0 :1:3 
+]
+[s S1390 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+[u S1393 . 1 `S1371 1 . 1 0 `S1379 1 . 1 0 `S1387 1 . 1 0 `S1390 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1393  1 e 1 @789 ]
+"18881
+[v _T1GATE T1GATE `VEuc  1 e 1 @790 ]
+"19047
+[v _T1CLK T1CLK `VEuc  1 e 1 @791 ]
+"19845
+[v _T2TMR T2TMR `VEuc  1 e 1 @796 ]
+"19850
+[v _TMR2 TMR2 `VEuc  1 e 1 @796 ]
+"19883
+[v _T2PR T2PR `VEuc  1 e 1 @797 ]
+"19888
+[v _PR2 PR2 `VEuc  1 e 1 @797 ]
+"19921
+[v _T2CON T2CON `VEuc  1 e 1 @798 ]
+[s S1691 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"19957
+[s S1695 . 1 `uc 1 T2OUTPS 1 0 :4:0 
+`uc 1 T2CKPS 1 0 :3:4 
+`uc 1 T2ON 1 0 :1:7 
+]
+[s S1699 . 1 `uc 1 T2OUTPS0 1 0 :1:0 
+`uc 1 T2OUTPS1 1 0 :1:1 
+`uc 1 T2OUTPS2 1 0 :1:2 
+`uc 1 T2OUTPS3 1 0 :1:3 
+`uc 1 T2CKPS0 1 0 :1:4 
+`uc 1 T2CKPS1 1 0 :1:5 
+`uc 1 T2CKPS2 1 0 :1:6 
+]
+[s S1707 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+`uc 1 TMR2ON 1 0 :1:7 
+]
+[u S1716 . 1 `S1691 1 . 1 0 `S1695 1 . 1 0 `S1699 1 . 1 0 `S1707 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1716  1 e 1 @798 ]
+"20067
+[v _T2HLT T2HLT `VEuc  1 e 1 @799 ]
+[s S1580 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"20100
+[s S1585 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+[s S1591 . 1 `uc 1 T2MODE 1 0 :5:0 
+`uc 1 T2CKSYNC 1 0 :1:5 
+`uc 1 T2CKPOL 1 0 :1:6 
+`uc 1 T2PSYNC 1 0 :1:7 
+]
+[s S1596 . 1 `uc 1 T2MODE0 1 0 :1:0 
+`uc 1 T2MODE1 1 0 :1:1 
+`uc 1 T2MODE2 1 0 :1:2 
+`uc 1 T2MODE3 1 0 :1:3 
+`uc 1 T2MODE4 1 0 :1:4 
+]
+[u S1602 . 1 `S1580 1 . 1 0 `S1585 1 . 1 0 `S1591 1 . 1 0 `S1596 1 . 1 0 ]
+[v _T2HLTbits T2HLTbits `VES1602  1 e 1 @799 ]
+"20195
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @800 ]
+"20353
+[v _T2RST T2RST `VEuc  1 e 1 @801 ]
+[s S1653 . 1 `uc 1 RSEL 1 0 :8:0 
+]
+"20380
+[s S1655 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+`uc 1 RSEL4 1 0 :1:4 
+]
+[s S1661 . 1 `uc 1 T2RSEL 1 0 :8:0 
+]
+[s S1663 . 1 `uc 1 T2RSEL0 1 0 :1:0 
+`uc 1 T2RSEL1 1 0 :1:1 
+`uc 1 T2RSEL2 1 0 :1:2 
+`uc 1 T2RSEL3 1 0 :1:3 
+`uc 1 T2RSEL4 1 0 :1:4 
+]
+[u S1669 . 1 `S1653 1 . 1 0 `S1655 1 . 1 0 `S1661 1 . 1 0 `S1663 1 . 1 0 ]
+[v _T2RSTbits T2RSTbits `VES1669  1 e 1 @801 ]
+"26670
+[v _FVRCON FVRCON `VEuc  1 e 1 @983 ]
+[s S634 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 RDY 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"26694
+[s S641 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+[u S649 . 1 `S634 1 . 1 0 `S641 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES649  1 e 1 @983 ]
+"26866
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
+"26994
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
+"27129
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
+"27257
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
+"27392
+[v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
+"27520
+[v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
+"27655
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
+"27783
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
+"27918
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
+"28046
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
+"28183
+[v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
+"28311
+[v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
+"28439
+[v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
+"28567
+[v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
+"28695
+[v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
+"28830
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
+"28958
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
+"29093
+[v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
+"29221
+[v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
+"29341
+[v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
+"29406
+[v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
+"29534
+[v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
+"29626
+[v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
+"29685
+[v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
+"29813
+[v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
+"29905
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
+[s S138 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"29945
+[s S146 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S154 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+`uc 1 FM1 1 0 :1:3 
+]
+[s S159 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S161 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[u S166 . 1 `S138 1 . 1 0 `S146 1 . 1 0 `S154 1 . 1 0 `S159 1 . 1 0 `S161 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES166  1 e 1 @1011 ]
+"30035
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
+[s S382 . 1 `uc 1 DSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 GPOL 1 0 :1:5 
+`uc 1 IPEN 1 0 :1:6 
+`uc 1 PPOL 1 0 :1:7 
+]
+"30056
+[s S388 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+[u S394 . 1 `S382 1 . 1 0 `S388 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES394  1 e 1 @1012 ]
+"30101
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
+[s S258 . 1 `uc 1 MD 1 0 :3:0 
+`uc 1 ACLR 1 0 :1:3 
+`uc 1 CRS 1 0 :3:4 
+`uc 1 PSIS 1 0 :1:7 
+]
+"30138
+[s S263 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+[s S272 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+]
+[s S276 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+`uc 1 MD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CRS0 1 0 :1:4 
+`uc 1 CRS1 1 0 :1:5 
+`uc 1 CRS2 1 0 :1:6 
+]
+[u S284 . 1 `S258 1 . 1 0 `S263 1 . 1 0 `S272 1 . 1 0 `S276 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES284  1 e 1 @1013 ]
+"30243
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
+[s S203 . 1 `uc 1 TMD 1 0 :3:0 
+`uc 1 SOI 1 0 :1:3 
+`uc 1 CALC 1 0 :3:4 
+]
+"30278
+[s S207 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[s S215 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[s S219 . 1 `uc 1 TMD0 1 0 :1:0 
+`uc 1 TMD1 1 0 :1:1 
+`uc 1 TMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CALC0 1 0 :1:4 
+`uc 1 CALC1 1 0 :1:5 
+`uc 1 CALC2 1 0 :1:6 
+]
+[u S227 . 1 `S203 1 . 1 0 `S207 1 . 1 0 `S215 1 . 1 0 `S219 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES227  1 e 1 @1014 ]
+"30373
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
+[s S318 . 1 `uc 1 STAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 MATH 1 0 :1:4 
+`uc 1 LTHR 1 0 :1:5 
+`uc 1 UTHR 1 0 :1:6 
+`uc 1 AOV 1 0 :1:7 
+]
+"30410
+[s S325 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+[s S334 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :4:3 
+`uc 1 ADOV 1 0 :1:7 
+]
+[s S338 . 1 `uc 1 STAT0 1 0 :1:0 
+`uc 1 STAT1 1 0 :1:1 
+`uc 1 STAT2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 OV 1 0 :1:7 
+]
+[u S344 . 1 `S318 1 . 1 0 `S325 1 . 1 0 `S334 1 . 1 0 `S338 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES344  1 e 1 @1015 ]
+"30505
+[v _ADREF ADREF `VEuc  1 e 1 @1016 ]
+"30645
+[v _ADACT ADACT `VEuc  1 e 1 @1017 ]
+"30737
+[v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
+"30841
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"30886
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"30936
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"30981
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"31026
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"31076
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"31126
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"31176
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"31226
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"31265
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"31304
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"31343
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"31382
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"31421
+[v _IOCBP IOCBP `VEuc  1 e 1 @1037 ]
+"31460
+[v _IOCBN IOCBN `VEuc  1 e 1 @1038 ]
+"31499
+[v _IOCBF IOCBF `VEuc  1 e 1 @1039 ]
+"31538
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"31600
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"31662
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"31724
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"31786
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"31848
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"31910
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"31972
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+"33356
+[v _PWM1ERS PWM1ERS `VEuc  1 e 1 @1120 ]
+"33426
+[v _PWM1CLK PWM1CLK `VEuc  1 e 1 @1121 ]
+"33496
+[v _PWM1LDS PWM1LDS `VEuc  1 e 1 @1122 ]
+"33573
+[v _PWM1PRL PWM1PRL `VEuc  1 e 1 @1123 ]
+"33593
+[v _PWM1PRH PWM1PRH `VEuc  1 e 1 @1124 ]
+"33613
+[v _PWM1CPRE PWM1CPRE `VEuc  1 e 1 @1125 ]
+"33633
+[v _PWM1PIPOS PWM1PIPOS `VEuc  1 e 1 @1126 ]
+"33653
+[v _PWM1GIR PWM1GIR `VEuc  1 e 1 @1127 ]
+[s S715 . 1 `uc 1 S1P1IF 1 0 :1:0 
+`uc 1 S1P2IF 1 0 :1:1 
+]
+"33664
+[u S718 . 1 `S715 1 . 1 0 ]
+"33664
+"33664
+[v _PWM1GIRbits PWM1GIRbits `VES718  1 e 1 @1127 ]
+"33679
+[v _PWM1GIE PWM1GIE `VEuc  1 e 1 @1128 ]
+[s S791 . 1 `uc 1 S1P1IE 1 0 :1:0 
+`uc 1 S1P2IE 1 0 :1:1 
+]
+"33690
+[u S794 . 1 `S791 1 . 1 0 ]
+"33690
+"33690
+[v _PWM1GIEbits PWM1GIEbits `VES794  1 e 1 @1128 ]
+"33705
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @1129 ]
+[s S776 . 1 `uc 1 ERSNOW 1 0 :1:0 
+`uc 1 ERSPOL 1 0 :1:1 
+`uc 1 LD 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 EN 1 0 :1:7 
+]
+"33719
+[u S782 . 1 `S776 1 . 1 0 ]
+"33719
+"33719
+[v _PWM1CONbits PWM1CONbits `VES782  1 e 1 @1129 ]
+"33744
+[v _PWM1S1CFG PWM1S1CFG `VEuc  1 e 1 @1130 ]
+"33810
+[v _PWM1S1P1L PWM1S1P1L `VEuc  1 e 1 @1131 ]
+"33830
+[v _PWM1S1P1H PWM1S1P1H `VEuc  1 e 1 @1132 ]
+"33857
+[v _PWM1S1P2L PWM1S1P2L `VEuc  1 e 1 @1133 ]
+"33877
+[v _PWM1S1P2H PWM1S1P2H `VEuc  1 e 1 @1134 ]
+[s S567 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 NVMIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CRCIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"35060
+[u S576 . 1 `S567 1 . 1 0 ]
+"35060
+"35060
+[v _PIE0bits PIE0bits `VES576  1 e 1 @1192 ]
+[s S85 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ACTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"35126
+[s S94 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM1IE 1 0 :1:4 
+]
+"35126
+[u S97 . 1 `S85 1 . 1 0 `S94 1 . 1 0 ]
+"35126
+"35126
+[v _PIE1bits PIE1bits `VES97  1 e 1 @1193 ]
+[s S1004 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"35238
+[u S1013 . 1 `S1004 1 . 1 0 ]
+"35238
+"35238
+[v _PIE3bits PIE3bits `VES1013  1 e 1 @1195 ]
+[s S724 . 1 `uc 1 U1RXIE 1 0 :1:0 
+`uc 1 U1TXIE 1 0 :1:1 
+`uc 1 U1EIE 1 0 :1:2 
+`uc 1 U1IE 1 0 :1:3 
+`uc 1 TMR3IE 1 0 :1:4 
+`uc 1 TMR3GIE 1 0 :1:5 
+`uc 1 PWM1PIE 1 0 :1:6 
+`uc 1 PWM1IE 1 0 :1:7 
+]
+"35300
+[u S733 . 1 `S724 1 . 1 0 ]
+"35300
+"35300
+[v _PIE4bits PIE4bits `VES733  1 e 1 @1196 ]
+[s S536 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 NVMIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"35707
+[u S545 . 1 `S536 1 . 1 0 ]
+"35707
+"35707
+[v _PIR0bits PIR0bits `VES545  1 e 1 @1203 ]
+[s S47 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"35773
+[s S56 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CM1IF 1 0 :1:4 
+]
+"35773
+[u S59 . 1 `S47 1 . 1 0 `S56 1 . 1 0 ]
+"35773
+"35773
+[v _PIR1bits PIR1bits `VES59  1 e 1 @1204 ]
+[s S113 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"35838
+[u S120 . 1 `S113 1 . 1 0 ]
+"35838
+"35838
+[v _PIR2bits PIR2bits `VES120  1 e 1 @1205 ]
+[s S1025 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"35885
+[u S1034 . 1 `S1025 1 . 1 0 ]
+"35885
+"35885
+[v _PIR3bits PIR3bits `VES1034  1 e 1 @1206 ]
+[s S694 . 1 `uc 1 U1RXIF 1 0 :1:0 
+`uc 1 U1TXIF 1 0 :1:1 
+`uc 1 U1EIF 1 0 :1:2 
+`uc 1 U1IF 1 0 :1:3 
+`uc 1 TMR3IF 1 0 :1:4 
+`uc 1 TMR3GIF 1 0 :1:5 
+`uc 1 PWM1PIF 1 0 :1:6 
+`uc 1 PWM1IF 1 0 :1:7 
+]
+"35947
+[u S703 . 1 `S694 1 . 1 0 ]
+"35947
+"35947
+[v _PIR4bits PIR4bits `VES703  1 e 1 @1207 ]
+[s S916 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"36075
+[u S925 . 1 `S916 1 . 1 0 ]
+"36075
+"36075
+[v _PIR6bits PIR6bits `VES925  1 e 1 @1209 ]
+[s S947 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 DMA4SCNTIF 1 0 :1:4 
+`uc 1 DMA4DCNTIF 1 0 :1:5 
+`uc 1 DMA4ORIF 1 0 :1:6 
+`uc 1 DMA4AIF 1 0 :1:7 
+]
+"36302
+[u S955 . 1 `S947 1 . 1 0 ]
+"36302
+"36302
+[v _PIR10bits PIR10bits `VES955  1 e 1 @1213 ]
+"36337
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"36382
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"36421
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+[s S2389 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"36438
+[u S2398 . 1 `S2389 1 . 1 0 ]
+"36438
+"36438
+[v _LATCbits LATCbits `VES2398  1 e 1 @1216 ]
+"36483
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"36533
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"36572
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S864 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36805
+[s S872 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36805
+[u S875 . 1 `S864 1 . 1 0 `S872 1 . 1 0 ]
+"36805
+"36805
+[v _INTCON0bits INTCON0bits `VES875  1 e 1 @1238 ]
+"37788
+[v _TABLAT TABLAT `VEuc  1 e 1 @1269 ]
+"37817
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @1270 ]
+"37837
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @1271 ]
+"37857
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @1272 ]
+"118 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"119
+[v _flags flags `uc  1 s 1 flags ]
+"144
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"40 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_ADI_InterruptHandler ADCC_ADI_InterruptHandler `*.37(v  1 s 2 ADCC_ADI_InterruptHandler ]
+"37 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc/src/clc1.c
+[v _CLC1_CLCI_InterruptHandler CLC1_CLCI_InterruptHandler `*.37(v  1 s 2 CLC1_CLCI_InterruptHandler ]
+"40 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/nvm/src/nvm.c
+[v _unlockKeyLow unlockKeyLow `VNEuc  1 s 1 unlockKeyLow ]
+"41
+[v _unlockKeyHigh unlockKeyHigh `VNEuc  1 s 1 unlockKeyHigh ]
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+[v _PWM1_16BIT_Slice1Output1_InterruptHandler PWM1_16BIT_Slice1Output1_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output1_InterruptHandler ]
+"44
+[v _PWM1_16BIT_Slice1Output2_InterruptHandler PWM1_16BIT_Slice1Output2_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Slice1Output2_InterruptHandler ]
+"45
+[v _PWM1_16BIT_Period_InterruptHandler PWM1_16BIT_Period_InterruptHandler `*.37(v  1 s 2 PWM1_16BIT_Period_InterruptHandler ]
+"38 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.37(v  1 e 2 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.37(v  1 e 2 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.37(v  1 e 2 0 ]
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
+"54
+[v _TMR1_OverflowCallback TMR1_OverflowCallback `*.37(v  1 s 2 TMR1_OverflowCallback ]
+"56
+[v _TMR1_GateCallback TMR1_GateCallback `*.37(v  1 s 2 TMR1_GateCallback ]
+"50 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_OverflowCallback TMR2_OverflowCallback `*.37(v  1 s 2 TMR2_OverflowCallback ]
+[s S1973 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"77 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart/src/uart1.c
+[u S1978 . 2 `S1973 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxLastError uart1RxLastError `VES1978  1 e 2 0 ]
+"83
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"84
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"85
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.37(v  1 e 2 0 ]
+"39 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+} 0
+"19 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\application.c
+[v _TempIndicator_Init TempIndicator_Init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"82 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/nvm/src/nvm.c
+[v _FLASH_Read FLASH_Read `(uc  1 e 1 0 ]
+{
+"85
+[v FLASH_Read@tablePointer tablePointer `ul  1 a 4 17 ]
+"82
+[v FLASH_Read@address address `um  1 p 3 2 ]
+"101
+} 0
+"26 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\application.c
+[v _TempIndicator_Calc TempIndicator_Calc `(v  1 e 1 0 ]
+{
+"33
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+{
+"17
+[v ___tmul@product product `um  1 a 3 8 ]
+"15
+[v ___tmul@multiplier multiplier `um  1 p 3 2 ]
+[v ___tmul@multiplicand multiplicand `um  1 p 3 5 ]
+"99
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+{
+"10
+[v ___atdiv@quotient quotient `m  1 a 3 10 ]
+"11
+[v ___atdiv@sign sign `uc  1 a 1 9 ]
+[v ___atdiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___atdiv@dividend dividend `m  1 p 3 2 ]
+[v ___atdiv@divisor divisor `m  1 p 3 5 ]
+"41
+} 0
+"121 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+{
+"125
+} 0
+"37 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"95 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"144
+} 0
+"328
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
+"334
+} 0
+"320
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
+"326
+} 0
+"312
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.37(v  1 p 2 2 ]
+"318
+} 0
+"57 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"135
+[v _TMR2_OverflowCallbackRegister TMR2_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR2_OverflowCallbackRegister@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"137
+} 0
+"59 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"158
+[v _TMR1_OverflowCallbackRegister TMR1_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR1_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 2 ]
+"161
+} 0
+"184
+[v _TMR1_GateCallbackRegister TMR1_GateCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR1_GateCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 2 ]
+"187
+} 0
+"50 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/pwm/src/pwm1_16bit.c
+[v _PWM1_16BIT_Initialize PWM1_16BIT_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"184
+[v _PWM1_16BIT_Slice1Output2_SetInterruptHandler PWM1_16BIT_Slice1Output2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v PWM1_16BIT_Slice1Output2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"187
+} 0
+"179
+[v _PWM1_16BIT_Slice1Output1_SetInterruptHandler PWM1_16BIT_Slice1Output1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v PWM1_16BIT_Slice1Output1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"182
+} 0
+"189
+[v _PWM1_16BIT_Period_SetInterruptHandler PWM1_16BIT_Period_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v PWM1_16BIT_Period_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"192
+} 0
+"38 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"118
+} 0
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+{
+"68
+} 0
+"42 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"175
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"177
+} 0
+"149
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"151
+} 0
+"123
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"125
+} 0
+"43 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/fvr/src/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"37 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"53
+} 0
+"40 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc/src/clc1.c
+[v _CLC1_Initialize CLC1_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"87
+[v _CLC1_CLCI_SetInterruptHandler CLC1_CLCI_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v CLC1_CLCI_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"90
+} 0
+"47 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"297
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADCC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 2 ]
+"300
+} 0
+"13 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\application.c
+[v _IntroSplashMessage IntroSplashMessage `(v  1 e 1 0 ]
+{
+"17
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 69 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 64 ]
+"13
+} 0
+"1546 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1549
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 62 ]
+[s S3038 _IO_FILE 0 ]
+"1546
+[v vfprintf@fp fp `*.2S3038  1 p 2 56 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 58 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 60 ]
+"1569
+} 0
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S3056 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `*.2v 1 vp 3 0 `d 1 f 4 0 ]
+"1059
+[v vfpfcnvrt@convarg convarg `S3056  1 a 4 50 ]
+"1050
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 54 ]
+[s S3038 _IO_FILE 0 ]
+"1048
+[v vfpfcnvrt@fp fp `*.2S3038  1 p 2 42 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 44 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 46 ]
+"1543
+} 0
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"473
+[v dtoa@i i `i  1 a 2 39 ]
+[v dtoa@w w `i  1 a 2 37 ]
+[v dtoa@p p `i  1 a 2 35 ]
+"472
+[v dtoa@s s `uc  1 a 1 41 ]
+[s S3038 _IO_FILE 0 ]
+"470
+[v dtoa@fp fp `*.2S3038  1 p 2 29 ]
+[v dtoa@d d `i  1 p 2 31 ]
+"527
+} 0
+"152
+[v _pad pad `(v  1 s 1 pad ]
+{
+"154
+[v pad@w w `i  1 a 2 27 ]
+[v pad@i i `i  1 a 2 25 ]
+[s S3038 _IO_FILE 0 ]
+"152
+[v pad@fp fp `*.2S3038  1 p 2 18 ]
+[v pad@buf buf `*.39uc  1 p 2 20 ]
+[v pad@p p `i  1 p 2 22 ]
+"183
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 16 ]
+"10
+[v fputs@c c `uc  1 a 1 15 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 11 ]
+[u S3017 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3020 _IO_FILE 12 `S3017 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputs@fp fp `*.2S3020  1 p 2 13 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[u S3017 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3020 _IO_FILE 12 `S3017 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.2S3020  1 p 2 4 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 8 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 7 ]
+[v ___awmod@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+[v ___awmod@divisor divisor `i  1 p 2 4 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 8 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 7 ]
+[v ___awdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+[v ___awdiv@divisor divisor `i  1 p 2 4 ]
+"41
+} 0
+"80 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"103
+} 0
+"124 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"133
+} 0
+"163 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr1.c
+[v _TMR1_DefaultOverflowCallback TMR1_DefaultOverflowCallback `(v  1 s 1 TMR1_DefaultOverflowCallback ]
+{
+"167
+} 0
+"139 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/timer/src/tmr2.c
+[v _TMR2_DefaultOverflowCallback TMR2_DefaultOverflowCallback `(v  1 s 1 TMR2_DefaultOverflowCallback ]
+{
+"142
+} 0
+"120 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"122
+} 0
+"76 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/clc/src/clc1.c
+[v _CLC1_ISR CLC1_ISR `(v  1 e 1 0 ]
+{
+"85
+} 0
+"92
+[v _CLC1_DefaultCLCI_ISR CLC1_DefaultCLCI_ISR `(v  1 s 1 CLC1_DefaultCLCI_ISR ]
+{
+"97
+} 0
+"286 C:\Users\c50931\OneDrive - Microchip Technology Inc\Desktop\PIC18F16Q40 Nano Demo\pic18f16q40-cnano-demo-fw.X\mcc_generated_files/adc/src/adcc.c
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+{
+"295
+} 0
+"302
+[v _ADCC_DefaultADI_ISR ADCC_DefaultADI_ISR `(v  1 s 1 ADCC_DefaultADI_ISR ]
+{
+"307
+} 0

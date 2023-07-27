@@ -17,8 +17,8 @@ void IntroSplashMessage(void) {
 }
 
 void TempIndicator_Init(void) {
-    gain = FLASH_ReadWord(DIA_TSHR1);
-    offset = FLASH_ReadWord(DIA_TSHR3);
+    gain = (FLASH_Read(DIA_TSHR1 + 1) << 8) + FLASH_Read(DIA_TSHR1);
+    offset = (FLASH_Read(DIA_TSHR3 + 1) << 8) + FLASH_Read(DIA_TSHR3);
 }
 
 void TempIndicator_Calc(void) {

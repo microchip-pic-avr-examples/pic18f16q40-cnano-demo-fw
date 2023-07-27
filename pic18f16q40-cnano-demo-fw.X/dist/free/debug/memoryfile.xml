@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/free/debug\pic18f16q40-cnano-demo-fw.X.debug.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>65536</length>
+      <used>4300</used>
+      <free>61236</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>4096</length>
+      <used>159</used>
+      <free>3937</free>
+    </memory>
+  </executable>
+</project>

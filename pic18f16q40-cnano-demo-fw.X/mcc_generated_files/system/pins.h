@@ -1,52 +1,39 @@
 /**
-  Generated Pins header File
-
-  Company:
-    Microchip Technology Inc.
-
-  File Name:
-    pins.h
-
-  Summary:
-    This is generated driver header for pins. 
-
-  Description:
-    This header file provides APIs for all pins selected in the GUI.
-
-  Generation Information:
-    Driver Version:  3.0.0
-
+ * Generated Pins header File
+ * 
+ * @file pins.h
+ * 
+ * @defgroup  pinsdriver Pins Driver
+ * 
+ * @brief This is generated driver header for pins. 
+ *        This header file provides APIs for all pins selected in the GUI.
+ *
+ * @version Driver Version  3.1.0
 */
 
 /*
-    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
-    
-    Subject to your compliance with these terms, you may use Microchip software and any 
-    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
-    license terms applicable to your use of third party software (including open source software) that 
-    may accompany Microchip software.
-    
-    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
-    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
-    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
-    FOR A PARTICULAR PURPOSE.
-    
-    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
-    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
-    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
-    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
-    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
-    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
-    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
-    SOFTWARE.
+© [2023] Microchip Technology Inc. and its subsidiaries.
+
+    Subject to your compliance with these terms, you may use Microchip 
+    software and any derivatives exclusively with Microchip products. 
+    You are responsible for complying with 3rd party license terms  
+    applicable to your use of 3rd party software (including open source  
+    software) that may accompany Microchip software. SOFTWARE IS ?AS IS.? 
+    NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS 
+    SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT,  
+    MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT 
+    WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY 
+    KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF 
+    MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE 
+    FORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP?S 
+    TOTAL LIABILITY ON ALL CLAIMS RELATED TO THE SOFTWARE WILL NOT 
+    EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
+    THIS SOFTWARE.
 */
 
 #ifndef PINS_H
 #define PINS_H
-
-/**
-  Section: Included Files
-*/
 
 #include <xc.h>
 
@@ -61,6 +48,26 @@
 
 #define PULL_UP_ENABLED      1
 #define PULL_UP_DISABLED     0
+
+// get/set RA0 aliases
+#define IO_RA0_TRIS                 TRISAbits.TRISA0
+#define IO_RA0_LAT                  LATAbits.LATA0
+#define IO_RA0_PORT                 PORTAbits.RA0
+#define IO_RA0_WPU                  WPUAbits.WPUA0
+#define IO_RA0_OD                   ODCONAbits.ODCA0
+#define IO_RA0_ANS                  ANSELAbits.ANSELA0
+#define IO_RA0_SetHigh()            do { LATAbits.LATA0 = 1; } while(0)
+#define IO_RA0_SetLow()             do { LATAbits.LATA0 = 0; } while(0)
+#define IO_RA0_Toggle()             do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0)
+#define IO_RA0_GetValue()           PORTAbits.RA0
+#define IO_RA0_SetDigitalInput()    do { TRISAbits.TRISA0 = 1; } while(0)
+#define IO_RA0_SetDigitalOutput()   do { TRISAbits.TRISA0 = 0; } while(0)
+#define IO_RA0_SetPullup()          do { WPUAbits.WPUA0 = 1; } while(0)
+#define IO_RA0_ResetPullup()        do { WPUAbits.WPUA0 = 0; } while(0)
+#define IO_RA0_SetPushPull()        do { ODCONAbits.ODCA0 = 0; } while(0)
+#define IO_RA0_SetOpenDrain()       do { ODCONAbits.ODCA0 = 1; } while(0)
+#define IO_RA0_SetAnalogMode()      do { ANSELAbits.ANSELA0 = 1; } while(0)
+#define IO_RA0_SetDigitalMode()     do { ANSELAbits.ANSELA0 = 0; } while(0)
 
 // get/set RA2 aliases
 #define IO_RA2_TRIS                 TRISAbits.TRISA2
@@ -202,70 +209,21 @@
 #define LED0_SetAnalogMode()      do { ANSELCbits.ANSELC1 = 1; } while(0)
 #define LED0_SetDigitalMode()     do { ANSELCbits.ANSELC1 = 0; } while(0)
 
-// get/set RC3 aliases
-#define IO_RC3_TRIS                 TRISCbits.TRISC3
-#define IO_RC3_LAT                  LATCbits.LATC3
-#define IO_RC3_PORT                 PORTCbits.RC3
-#define IO_RC3_WPU                  WPUCbits.WPUC3
-#define IO_RC3_OD                   ODCONCbits.ODCC3
-#define IO_RC3_ANS                  ANSELCbits.ANSELC3
-#define IO_RC3_SetHigh()            do { LATCbits.LATC3 = 1; } while(0)
-#define IO_RC3_SetLow()             do { LATCbits.LATC3 = 0; } while(0)
-#define IO_RC3_Toggle()             do { LATCbits.LATC3 = ~LATCbits.LATC3; } while(0)
-#define IO_RC3_GetValue()           PORTCbits.RC3
-#define IO_RC3_SetDigitalInput()    do { TRISCbits.TRISC3 = 1; } while(0)
-#define IO_RC3_SetDigitalOutput()   do { TRISCbits.TRISC3 = 0; } while(0)
-#define IO_RC3_SetPullup()          do { WPUCbits.WPUC3 = 1; } while(0)
-#define IO_RC3_ResetPullup()        do { WPUCbits.WPUC3 = 0; } while(0)
-#define IO_RC3_SetPushPull()        do { ODCONCbits.ODCC3 = 0; } while(0)
-#define IO_RC3_SetOpenDrain()       do { ODCONCbits.ODCC3 = 1; } while(0)
-#define IO_RC3_SetAnalogMode()      do { ANSELCbits.ANSELC3 = 1; } while(0)
-#define IO_RC3_SetDigitalMode()     do { ANSELCbits.ANSELC3 = 0; } while(0)
-
-// get/set RC5 aliases
-#define IO_RC5_TRIS                 TRISCbits.TRISC5
-#define IO_RC5_LAT                  LATCbits.LATC5
-#define IO_RC5_PORT                 PORTCbits.RC5
-#define IO_RC5_WPU                  WPUCbits.WPUC5
-#define IO_RC5_OD                   ODCONCbits.ODCC5
-#define IO_RC5_ANS                  ANSELCbits.ANSELC5
-#define IO_RC5_SetHigh()            do { LATCbits.LATC5 = 1; } while(0)
-#define IO_RC5_SetLow()             do { LATCbits.LATC5 = 0; } while(0)
-#define IO_RC5_Toggle()             do { LATCbits.LATC5 = ~LATCbits.LATC5; } while(0)
-#define IO_RC5_GetValue()           PORTCbits.RC5
-#define IO_RC5_SetDigitalInput()    do { TRISCbits.TRISC5 = 1; } while(0)
-#define IO_RC5_SetDigitalOutput()   do { TRISCbits.TRISC5 = 0; } while(0)
-#define IO_RC5_SetPullup()          do { WPUCbits.WPUC5 = 1; } while(0)
-#define IO_RC5_ResetPullup()        do { WPUCbits.WPUC5 = 0; } while(0)
-#define IO_RC5_SetPushPull()        do { ODCONCbits.ODCC5 = 0; } while(0)
-#define IO_RC5_SetOpenDrain()       do { ODCONCbits.ODCC5 = 1; } while(0)
-#define IO_RC5_SetAnalogMode()      do { ANSELCbits.ANSELC5 = 1; } while(0)
-#define IO_RC5_SetDigitalMode()     do { ANSELCbits.ANSELC5 = 0; } while(0)
-
 /**
-   @Param
-    none
-   @Returns
-    none
-   @Description
-    GPIO and peripheral I/O initialization
-   @Example
-    PIN_MANAGER_Initialize();
+ * @ingroup  pinsdriver
+ * @brief GPIO and peripheral I/O initialization
+ * @param none
+ * @return none
  */
 void PIN_MANAGER_Initialize (void);
 
 /**
- * @Param
-    none
- * @Returns
-    none
- * @Description
-    Interrupt on Change Handling routine
- * @Example
-    PIN_MANAGER_IOC();
+ * @ingroup  pinsdriver
+ * @brief Interrupt on Change Handling routine
+ * @param none
+ * @return none
  */
 void PIN_MANAGER_IOC(void);
-
 
 
 #endif // PINS_H

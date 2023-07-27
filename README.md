@@ -7,18 +7,18 @@ The PIC18F16Q40 Curiosity Nano Evaluation Kit is preprogrammed with this project
 <img src="images/q40-nano.png" alt="MCHP" width="500"/></a>
 
 ## Related Documentation
-* [PIC18F16Q40 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
+* [PIC18F16Q40 Curiosity Nano User Guide](https://microchip.com/DS50003047A)
 * [PIC18F16Q40 Device Page](https://www.microchip.com/wwwproducts/en/PIC18F16Q40)
 
 ## Software Used:
-  - MPLAB® X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+  - MPLAB® X IDE 6.10 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
   - MPLAB® XC8 2.20 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-  - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-  - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-  - Microchip PIC18F-Q Series Device Support (1.5.124) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
+  - MPLAB® Code Configurator (MCC) 5.3.7 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+  - MPLAB® Melody Library 2.6.1 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+  - Microchip PIC18F-Q Series Device Support (1.19.401) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 ## Hardware Used
-  - [PIC18F16Q40 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/xxxxxxx) <!-- TODO: Update link once assigned -->
+  - [PIC18F16Q40 Curiosity Nano](https://www.microchip.com/en-us/development-tool/EV70C97A)
 
 ## Setup
 A brand new PIC18F16Q40 Curiosity Nano comes with the code in this repository pre-programmed onto the device. This demo code can be reprogrammed to the PIC18F16Q40 by copying the hex file onto the CURIOSITY virtual drive that shows up once the Nano Board is plugged into a PC. The entire project can also be accessed using MPLABX 5.40 or newer.
@@ -35,8 +35,6 @@ In order to calculate the device temperature in degrees Celsius using the raw AD
 
 ```c
 void TempIndicator_Calc(void) {
-    gain = FLASH_ReadWord(DIA_TSHR1);
-    offset = FLASH_ReadWord(DIA_TSHR3);
     adcc_meas = ADCC_GetConversionResult();
     tempC = (int24_t) adcc_meas * gain;
     tempC = tempC / 256;
