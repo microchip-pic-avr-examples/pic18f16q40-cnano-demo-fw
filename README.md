@@ -11,11 +11,11 @@ The PIC18F16Q40 Curiosity Nano Evaluation Kit is preprogrammed with this project
 * [PIC18F16Q40 Device Page](https://www.microchip.com/wwwproducts/en/PIC18F16Q40)
 
 ## Software Used:
-  - [MPLAB® X IDE 6.10 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-  - [MPLAB® XC8 2.41 or a newer compiler](http://www.microchip.com/mplab/compilers)
-  - [MPLAB® Code Configurator (MCC) 5.3.7 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
-  - [MPLAB® Melody Library 2.6.1 or newer](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator/melody)
-  - [Microchip PIC18F-Q Series Device Support (1.20.405) or newer](https://packs.download.microchip.com/)
+  - [MPLAB® X IDE 6.10](http://www.microchip.com/mplab/mplab-x-ide) or newer
+  - [MPLAB® XC8 2.41](http://www.microchip.com/mplab/compilers) or newer
+  - [MPLAB® Code Configurator (MCC) 5.3.7](https://www.microchip.com/mplab/mplab-code-configurator) or newer
+  - [MPLAB® Melody Library 2.6.1](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator/melody) or newer
+  - [Microchip PIC18F-Q Series Device Support (1.20.405)](https://packs.download.microchip.com/) or newer
 
 ## Hardware Used
   - [PIC18F16Q40 Curiosity Nano](https://www.microchip.com/en-us/development-tool/EV70C97A)
