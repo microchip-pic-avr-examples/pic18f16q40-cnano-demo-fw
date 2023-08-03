@@ -2,7 +2,7 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 # PIC18F16Q40 Curiosity Nano Demonstration Firmware
-The PIC18F16Q40 Curiosity Nano Evaluation Kit is preprogrammed with this project in order to demonstrate some of the key features of the device family. This project highlights several of the main peripherals found on the PIC18F16Q40 such as the ADC with Computation (ADCC), the Temperature Indicator module, Configurable Logic Cell (CLC), Non-Volatile Memory (NVM) module, 16-bit Pulse width Modulation (PWM), Universal Asynchronous Receiver/Transmitter (UART), and Timer 1/2 modules.
+The PIC18F16Q40 Curiosity Nano Evaluation Kit is preprogrammed with this project in order to demonstrate some of the key features of the device family. This project highlights several of the main peripherals found on the PIC18F16Q40 such as the ADC with Computation (ADCC), the Temperature Indicator module, Configurable Logic Cell (CLC), Non-Volatile Memory (NVM) module, 16-bit Pulse Width Modulation (PWM), Universal Asynchronous Receiver/Transmitter (UART), and Timer 1/2 modules.
 
 <img src="images/q40-nano.png" alt="MCHP" width="500"/></a>
 
